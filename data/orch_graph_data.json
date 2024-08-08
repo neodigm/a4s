@@ -1,0 +1,2282 @@
+{
+    "thought_process": "-> Plan : \n[{'reframed_question': 'Give me the Nbrx percentage share trend for Skyrizi for 13x13 weeks', 'module_id': 'sypher-trends', 'agent_config': '{\"base_url\": \"http://genai-apiagent.aws-k8s-d.abbvienet.com\", \"api_version\": \"v1.0\", \"agent_type\": \"apiagent\", \"method\": \"GET\", \"params\": {}, \"payload\": {}}', 'tool_id': 2, 'agent_id': 1}]\n \n -> Payload Generated : \n[{'sessionId': '935', 'correlationId': 'ee6ffdab-1c62-4f03-ad69-deae7e417ad0', 'requestId': '5499', 'requestType': 'QUERY', 'question': 'Give me the Nbrx percentage share trend for Skyrizi for 13x13 weeks', 'moduleId': 'sypher-trends', 'clientId': 'Orchestrator-GUID', 'userInfo': {'name': 'Chris Drummond', 'email': 'chris.drummond@abbvie.com.invalid', 'role': 'REP', 'attributes': [{'attributeName': 'geolevel', 'attributeValue': 'territory'}, {'attributeName': 'geoIdValue', 'attributeValue': 'ING22'}, {'attributeName': 'franchisename', 'attributeValue': 'Immunology - Gastro'}, {'attributeName': 'productname', 'attributeValue': \"['SKYRIZI', 'RINVOQ']\"}, {'attributeName': 'salesforce', 'attributeValue': 'AI5'}]}, 'parameters': [{'paramName': 'trendproducts', 'paramValue': 'Skyrizi'}, {'paramName': 'salesforce', 'paramValue': 'AI5'}, {'paramName': 'time', 'paramValue': '13x13 weeks'}]}]\n\n -> Agent's Response : \n{'sessionId': '935', 'correlationId': 'ee6ffdab-1c62-4f03-ad69-deae7e417ad0', 'requestId': '5499', 'status': 'Success', 'userInfo': {'name': 'Chris Drummond', 'email': 'chris.drummond@abbvie.com.invalid', 'role': 'REP'}, 'agentId': None, 'moduleId': 'sypher-trends', 'dataSummary': '', 'data': {'response': [{'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '07/05/2024', 'metrics-NBRX_SHARE_PCT': '38.46'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '06/28/2024', 'metrics-NBRX_SHARE_PCT': '47.06'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '06/21/2024', 'metrics-NBRX_SHARE_PCT': '27.59'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '06/14/2024', 'metrics-NBRX_SHARE_PCT': '36.36'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '06/07/2024', 'metrics-NBRX_SHARE_PCT': '18.92'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '05/31/2024', 'metrics-NBRX_SHARE_PCT': '22.86'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '05/24/2024', 'metrics-NBRX_SHARE_PCT': '23.08'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '05/17/2024', 'metrics-NBRX_SHARE_PCT': '27.78'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '05/10/2024', 'metrics-NBRX_SHARE_PCT': '21.33'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '05/03/2024', 'metrics-NBRX_SHARE_PCT': '7.69'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '04/26/2024', 'metrics-NBRX_SHARE_PCT': '12.50'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '04/19/2024', 'metrics-NBRX_SHARE_PCT': '41.38'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '04/12/2024', 'metrics-NBRX_SHARE_PCT': '23.53'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '04/05/2024', 'metrics-NBRX_SHARE_PCT': '41.67'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '03/29/2024', 'metrics-NBRX_SHARE_PCT': '27.91'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '03/22/2024', 'metrics-NBRX_SHARE_PCT': '20.00'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '03/15/2024', 'metrics-NBRX_SHARE_PCT': '38.89'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '03/08/2024', 'metrics-NBRX_SHARE_PCT': '25.71'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '03/01/2024', 'metrics-NBRX_SHARE_PCT': '25.93'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '02/23/2024', 'metrics-NBRX_SHARE_PCT': '24.14'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '02/16/2024', 'metrics-NBRX_SHARE_PCT': '30.00'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '02/09/2024', 'metrics-NBRX_SHARE_PCT': '15.38'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '02/02/2024', 'metrics-NBRX_SHARE_PCT': '26.32'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '01/26/2024', 'metrics-NBRX_SHARE_PCT': '24.14'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '01/19/2024', 'metrics-NBRX_SHARE_PCT': '5.45'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '01/12/2024', 'metrics-NBRX_SHARE_PCT': '38.10'}]}, 'error': {}}\n \n\n -> Latency Information: \nByPass Classifier: 96.459 ms, \n\nValidation's Sentiment Analyzer: 2489.971 ms, \n\nValidation's HCP ID Retrival: 3119.211 ms, \n\nPlanner Question Breakdown and Reframing: 4183.605 ms, \n\nPlanner RAG Based Approach: 695.48 ms, \n\nValidation's User Based Question Validation: 4906.219 ms, \n\nPlanner LLM Based Router: 752.69 ms, \n\nPlanner Agent: 5633.1 ms, \n\nValidations: 5671.136 ms, \n\nNudging: 3026.742 ms, \n\nAgent Execution: 4481.461 ms, \n\nSummarizer: 20969.643 ms, \n\nTotal Time: 34372.834 ms, \n\n",
+    "summarized_response": [
+        {
+            "type": "info",
+            "data": "\n User_Question is Give me the Nbrx percentage share trend for Skyrizi for 13x13 weeks The Context is [{'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '07/05/2024', 'metrics-NBRX_SHARE_PCT': '38.46'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '06/28/2024', 'metrics-NBRX_SHARE_PCT': '47.06'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '06/21/2024', 'metrics-NBRX_SHARE_PCT': '27.59'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '06/14/2024', 'metrics-NBRX_SHARE_PCT': '36.36'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '06/07/2024', 'metrics-NBRX_SHARE_PCT': '18.92'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '05/31/2024', 'metrics-NBRX_SHARE_PCT': '22.86'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '05/24/2024', 'metrics-NBRX_SHARE_PCT': '23.08'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '05/17/2024', 'metrics-NBRX_SHARE_PCT': '27.78'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '05/10/2024', 'metrics-NBRX_SHARE_PCT': '21.33'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '05/03/2024', 'metrics-NBRX_SHARE_PCT': '7.69'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '04/26/2024', 'metrics-NBRX_SHARE_PCT': '12.50'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '04/19/2024', 'metrics-NBRX_SHARE_PCT': '41.38'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '04/12/2024', 'metrics-NBRX_SHARE_PCT': '23.53'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '04/05/2024', 'metrics-NBRX_SHARE_PCT': '41.67'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '03/29/2024', 'metrics-NBRX_SHARE_PCT': '27.91'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '03/22/2024', 'metrics-NBRX_SHARE_PCT': '20.00'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '03/15/2024', 'metrics-NBRX_SHARE_PCT': '38.89'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '03/08/2024', 'metrics-NBRX_SHARE_PCT': '25.71'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '03/01/2024', 'metrics-NBRX_SHARE_PCT': '25.93'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '02/23/2024', 'metrics-NBRX_SHARE_PCT': '24.14'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '02/16/2024', 'metrics-NBRX_SHARE_PCT': '30.00'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '02/09/2024', 'metrics-NBRX_SHARE_PCT': '15.38'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '02/02/2024', 'metrics-NBRX_SHARE_PCT': '26.32'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '01/26/2024', 'metrics-NBRX_SHARE_PCT': '24.14'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '01/19/2024', 'metrics-NBRX_SHARE_PCT': '5.45'}, {'current-Period': '04/06/2024 - 07/05/2024', 'previous-Period': '01/06/2024 - 04/05/2024', 'name': 'Houston S, TX', 'product': 'SKYRIZI', 'time-period': '01/12/2024', 'metrics-NBRX_SHARE_PCT': '38.10'}]"
+        },
+        {
+            "type": "markdown",
+            "data": "The Nbrx percentage share trend for Skyrizi for the past 13 weeks in Houston, TX is as follows:\n1. 5 July 2024 - 38.46%\n2. 28 June 2024 - 47.06%\n3. 21 June 2024 - 27.59%\n4. 14 June 2024 - 36.36%\n5. 7 June 2024 - 18.92%\n6. 31 May 2024 - 22.86%\n7. 24 May 2024 - 23.08%\n8. 17 May 2024 - 27.78%\n9. 10 May 2024 - 21.33%\n10. 3 May 2024 - 7.69%\n11. 26 April 2024 - 12.50%\n12. 19 April 2024 - 41.38%\n13. 12 April 2024 - 23.53%\n14. 5 April 2024 - 41.67%\n15. 29 March 2024 - 27.91%\n16. 22 March 2024 - 20.00%\n17. 15 March 2024 - 38.89%\n18. 8 March 2024 - 25.71%\n19. 1 March 2024 - 25.93%\n20. 23 February 2024 - 24.14%\n21. 16 February 2024 - 30.00%\n22. 9 February 2024 - 15.38%\n23. 2 February 2024 - 26.32%\n24. 26 January 2024 - 24.14%\n25. 19 January 2024 - 5.45%\n26. 12 January 2024 - 38.10%"
+        },
+        {
+            "type": "data",
+            "data": [
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "07/05/2024",
+                    "metrics-NBRX_SHARE_PCT": "38.46"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "06/28/2024",
+                    "metrics-NBRX_SHARE_PCT": "47.06"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "06/21/2024",
+                    "metrics-NBRX_SHARE_PCT": "27.59"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "06/14/2024",
+                    "metrics-NBRX_SHARE_PCT": "36.36"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "06/07/2024",
+                    "metrics-NBRX_SHARE_PCT": "18.92"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "05/31/2024",
+                    "metrics-NBRX_SHARE_PCT": "22.86"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "05/24/2024",
+                    "metrics-NBRX_SHARE_PCT": "23.08"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "05/17/2024",
+                    "metrics-NBRX_SHARE_PCT": "27.78"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "05/10/2024",
+                    "metrics-NBRX_SHARE_PCT": "21.33"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "05/03/2024",
+                    "metrics-NBRX_SHARE_PCT": "7.69"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "04/26/2024",
+                    "metrics-NBRX_SHARE_PCT": "12.50"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "04/19/2024",
+                    "metrics-NBRX_SHARE_PCT": "41.38"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "04/12/2024",
+                    "metrics-NBRX_SHARE_PCT": "23.53"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "04/05/2024",
+                    "metrics-NBRX_SHARE_PCT": "41.67"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "03/29/2024",
+                    "metrics-NBRX_SHARE_PCT": "27.91"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "03/22/2024",
+                    "metrics-NBRX_SHARE_PCT": "20.00"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "03/15/2024",
+                    "metrics-NBRX_SHARE_PCT": "38.89"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "03/08/2024",
+                    "metrics-NBRX_SHARE_PCT": "25.71"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "03/01/2024",
+                    "metrics-NBRX_SHARE_PCT": "25.93"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "02/23/2024",
+                    "metrics-NBRX_SHARE_PCT": "24.14"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "02/16/2024",
+                    "metrics-NBRX_SHARE_PCT": "30.00"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "02/09/2024",
+                    "metrics-NBRX_SHARE_PCT": "15.38"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "02/02/2024",
+                    "metrics-NBRX_SHARE_PCT": "26.32"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "01/26/2024",
+                    "metrics-NBRX_SHARE_PCT": "24.14"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "01/19/2024",
+                    "metrics-NBRX_SHARE_PCT": "5.45"
+                },
+                {
+                    "current-Period": "04/06/2024 - 07/05/2024",
+                    "previous-Period": "01/06/2024 - 04/05/2024",
+                    "name": "Houston S, TX",
+                    "product": "SKYRIZI",
+                    "time-period": "01/12/2024",
+                    "metrics-NBRX_SHARE_PCT": "38.10"
+                }
+            ],
+            "visualization": [
+                {
+                    "visualization_type": "line",
+                    "visualization_properties": {
+                        "title": "Time Period vs NBRX Share Percentage",
+                        "x": [
+                            [
+                                "2024-01-12",
+                                "2024-01-19",
+                                "2024-01-26",
+                                "2024-02-02",
+                                "2024-02-09",
+                                "2024-02-16",
+                                "2024-02-23",
+                                "2024-03-01",
+                                "2024-03-08",
+                                "2024-03-15",
+                                "2024-03-22",
+                                "2024-03-29",
+                                "2024-04-05",
+                                "2024-04-12",
+                                "2024-04-19",
+                                "2024-04-26",
+                                "2024-05-03",
+                                "2024-05-10",
+                                "2024-05-17",
+                                "2024-05-24",
+                                "2024-05-31",
+                                "2024-06-07",
+                                "2024-06-14",
+                                "2024-06-21",
+                                "2024-06-28",
+                                "2024-07-05"
+                            ]
+                        ],
+                        "y": [
+                            [
+                                "38.10",
+                                "5.45",
+                                "24.14",
+                                "26.32",
+                                "15.38",
+                                "30.00",
+                                "24.14",
+                                "25.93",
+                                "25.71",
+                                "38.89",
+                                "20.00",
+                                "27.91",
+                                "41.67",
+                                "23.53",
+                                "41.38",
+                                "12.50",
+                                "7.69",
+                                "21.33",
+                                "27.78",
+                                "23.08",
+                                "22.86",
+                                "18.92",
+                                "36.36",
+                                "27.59",
+                                "47.06",
+                                "38.46"
+                            ]
+                        ],
+                        "x_label": "Time Period",
+                        "y_label": "NBRX Share Percentage"
+                    },
+                    "visualization_object": {
+                        "data": [
+                            {
+                                "line": {
+                                    "color": "#1f77b4",
+                                    "width": 3
+                                },
+                                "marker": {
+                                    "color": "#1f77b4",
+                                    "line": {
+                                        "color": "darkblue",
+                                        "width": 1.5
+                                    },
+                                    "size": 7,
+                                    "symbol": "circle"
+                                },
+                                "mode": "lines+markers",
+                                "x": [
+                                    "2024-01-12T00:00:00",
+                                    "2024-01-19T00:00:00",
+                                    "2024-01-26T00:00:00",
+                                    "2024-02-02T00:00:00",
+                                    "2024-02-09T00:00:00",
+                                    "2024-02-16T00:00:00",
+                                    "2024-02-23T00:00:00",
+                                    "2024-03-01T00:00:00",
+                                    "2024-03-08T00:00:00",
+                                    "2024-03-15T00:00:00",
+                                    "2024-03-22T00:00:00",
+                                    "2024-03-29T00:00:00",
+                                    "2024-04-05T00:00:00",
+                                    "2024-04-12T00:00:00",
+                                    "2024-04-19T00:00:00",
+                                    "2024-04-26T00:00:00",
+                                    "2024-05-03T00:00:00",
+                                    "2024-05-10T00:00:00",
+                                    "2024-05-17T00:00:00",
+                                    "2024-05-24T00:00:00",
+                                    "2024-05-31T00:00:00",
+                                    "2024-06-07T00:00:00",
+                                    "2024-06-14T00:00:00",
+                                    "2024-06-21T00:00:00",
+                                    "2024-06-28T00:00:00",
+                                    "2024-07-05T00:00:00"
+                                ],
+                                "y": [
+                                    38.1,
+                                    5.45,
+                                    24.14,
+                                    26.32,
+                                    15.38,
+                                    30,
+                                    24.14,
+                                    25.93,
+                                    25.71,
+                                    38.89,
+                                    20,
+                                    27.91,
+                                    41.67,
+                                    23.53,
+                                    41.38,
+                                    12.5,
+                                    7.69,
+                                    21.33,
+                                    27.78,
+                                    23.08,
+                                    22.86,
+                                    18.92,
+                                    36.36,
+                                    27.59,
+                                    47.06,
+                                    38.46
+                                ],
+                                "type": "scatter"
+                            }
+                        ],
+                        "layout": {
+                            "template": {
+                                "data": {
+                                    "barpolar": [
+                                        {
+                                            "marker": {
+                                                "line": {
+                                                    "color": "white",
+                                                    "width": 0.5
+                                                },
+                                                "pattern": {
+                                                    "fillmode": "overlay",
+                                                    "size": 10,
+                                                    "solidity": 0.2
+                                                }
+                                            },
+                                            "type": "barpolar"
+                                        }
+                                    ],
+                                    "bar": [
+                                        {
+                                            "error_x": {
+                                                "color": "rgb(36,36,36)"
+                                            },
+                                            "error_y": {
+                                                "color": "rgb(36,36,36)"
+                                            },
+                                            "marker": {
+                                                "line": {
+                                                    "color": "white",
+                                                    "width": 0.5
+                                                },
+                                                "pattern": {
+                                                    "fillmode": "overlay",
+                                                    "size": 10,
+                                                    "solidity": 0.2
+                                                }
+                                            },
+                                            "type": "bar"
+                                        }
+                                    ],
+                                    "carpet": [
+                                        {
+                                            "aaxis": {
+                                                "endlinecolor": "rgb(36,36,36)",
+                                                "gridcolor": "white",
+                                                "linecolor": "white",
+                                                "minorgridcolor": "white",
+                                                "startlinecolor": "rgb(36,36,36)"
+                                            },
+                                            "baxis": {
+                                                "endlinecolor": "rgb(36,36,36)",
+                                                "gridcolor": "white",
+                                                "linecolor": "white",
+                                                "minorgridcolor": "white",
+                                                "startlinecolor": "rgb(36,36,36)"
+                                            },
+                                            "type": "carpet"
+                                        }
+                                    ],
+                                    "choropleth": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "type": "choropleth"
+                                        }
+                                    ],
+                                    "contourcarpet": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "type": "contourcarpet"
+                                        }
+                                    ],
+                                    "contour": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "contour"
+                                        }
+                                    ],
+                                    "heatmapgl": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "heatmapgl"
+                                        }
+                                    ],
+                                    "heatmap": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "heatmap"
+                                        }
+                                    ],
+                                    "histogram2dcontour": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "histogram2dcontour"
+                                        }
+                                    ],
+                                    "histogram2d": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "histogram2d"
+                                        }
+                                    ],
+                                    "histogram": [
+                                        {
+                                            "marker": {
+                                                "line": {
+                                                    "color": "white",
+                                                    "width": 0.6
+                                                }
+                                            },
+                                            "type": "histogram"
+                                        }
+                                    ],
+                                    "mesh3d": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "type": "mesh3d"
+                                        }
+                                    ],
+                                    "parcoords": [
+                                        {
+                                            "line": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "parcoords"
+                                        }
+                                    ],
+                                    "pie": [
+                                        {
+                                            "automargin": true,
+                                            "type": "pie"
+                                        }
+                                    ],
+                                    "scatter3d": [
+                                        {
+                                            "line": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatter3d"
+                                        }
+                                    ],
+                                    "scattercarpet": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattercarpet"
+                                        }
+                                    ],
+                                    "scattergeo": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattergeo"
+                                        }
+                                    ],
+                                    "scattergl": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattergl"
+                                        }
+                                    ],
+                                    "scattermapbox": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattermapbox"
+                                        }
+                                    ],
+                                    "scatterpolargl": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatterpolargl"
+                                        }
+                                    ],
+                                    "scatterpolar": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatterpolar"
+                                        }
+                                    ],
+                                    "scatter": [
+                                        {
+                                            "fillpattern": {
+                                                "fillmode": "overlay",
+                                                "size": 10,
+                                                "solidity": 0.2
+                                            },
+                                            "type": "scatter"
+                                        }
+                                    ],
+                                    "scatterternary": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatterternary"
+                                        }
+                                    ],
+                                    "surface": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "surface"
+                                        }
+                                    ],
+                                    "table": [
+                                        {
+                                            "cells": {
+                                                "fill": {
+                                                    "color": "rgb(237,237,237)"
+                                                },
+                                                "line": {
+                                                    "color": "white"
+                                                }
+                                            },
+                                            "header": {
+                                                "fill": {
+                                                    "color": "rgb(217,217,217)"
+                                                },
+                                                "line": {
+                                                    "color": "white"
+                                                }
+                                            },
+                                            "type": "table"
+                                        }
+                                    ]
+                                },
+                                "layout": {
+                                    "annotationdefaults": {
+                                        "arrowhead": 0,
+                                        "arrowwidth": 1
+                                    },
+                                    "autotypenumbers": "strict",
+                                    "coloraxis": {
+                                        "colorbar": {
+                                            "outlinewidth": 1,
+                                            "tickcolor": "rgb(36,36,36)",
+                                            "ticks": "outside"
+                                        }
+                                    },
+                                    "colorscale": {
+                                        "diverging": [
+                                            [
+                                                0,
+                                                "rgb(103,0,31)"
+                                            ],
+                                            [
+                                                0.1,
+                                                "rgb(178,24,43)"
+                                            ],
+                                            [
+                                                0.2,
+                                                "rgb(214,96,77)"
+                                            ],
+                                            [
+                                                0.3,
+                                                "rgb(244,165,130)"
+                                            ],
+                                            [
+                                                0.4,
+                                                "rgb(253,219,199)"
+                                            ],
+                                            [
+                                                0.5,
+                                                "rgb(247,247,247)"
+                                            ],
+                                            [
+                                                0.6,
+                                                "rgb(209,229,240)"
+                                            ],
+                                            [
+                                                0.7,
+                                                "rgb(146,197,222)"
+                                            ],
+                                            [
+                                                0.8,
+                                                "rgb(67,147,195)"
+                                            ],
+                                            [
+                                                0.9,
+                                                "rgb(33,102,172)"
+                                            ],
+                                            [
+                                                1,
+                                                "rgb(5,48,97)"
+                                            ]
+                                        ],
+                                        "sequential": [
+                                            [
+                                                0,
+                                                "#440154"
+                                            ],
+                                            [
+                                                0.1111111111111111,
+                                                "#482878"
+                                            ],
+                                            [
+                                                0.2222222222222222,
+                                                "#3e4989"
+                                            ],
+                                            [
+                                                0.3333333333333333,
+                                                "#31688e"
+                                            ],
+                                            [
+                                                0.4444444444444444,
+                                                "#26828e"
+                                            ],
+                                            [
+                                                0.5555555555555556,
+                                                "#1f9e89"
+                                            ],
+                                            [
+                                                0.6666666666666666,
+                                                "#35b779"
+                                            ],
+                                            [
+                                                0.7777777777777778,
+                                                "#6ece58"
+                                            ],
+                                            [
+                                                0.8888888888888888,
+                                                "#b5de2b"
+                                            ],
+                                            [
+                                                1,
+                                                "#fde725"
+                                            ]
+                                        ],
+                                        "sequentialminus": [
+                                            [
+                                                0,
+                                                "#440154"
+                                            ],
+                                            [
+                                                0.1111111111111111,
+                                                "#482878"
+                                            ],
+                                            [
+                                                0.2222222222222222,
+                                                "#3e4989"
+                                            ],
+                                            [
+                                                0.3333333333333333,
+                                                "#31688e"
+                                            ],
+                                            [
+                                                0.4444444444444444,
+                                                "#26828e"
+                                            ],
+                                            [
+                                                0.5555555555555556,
+                                                "#1f9e89"
+                                            ],
+                                            [
+                                                0.6666666666666666,
+                                                "#35b779"
+                                            ],
+                                            [
+                                                0.7777777777777778,
+                                                "#6ece58"
+                                            ],
+                                            [
+                                                0.8888888888888888,
+                                                "#b5de2b"
+                                            ],
+                                            [
+                                                1,
+                                                "#fde725"
+                                            ]
+                                        ]
+                                    },
+                                    "colorway": [
+                                        "#1F77B4",
+                                        "#FF7F0E",
+                                        "#2CA02C",
+                                        "#D62728",
+                                        "#9467BD",
+                                        "#8C564B",
+                                        "#E377C2",
+                                        "#7F7F7F",
+                                        "#BCBD22",
+                                        "#17BECF"
+                                    ],
+                                    "font": {
+                                        "color": "rgb(36,36,36)"
+                                    },
+                                    "geo": {
+                                        "bgcolor": "white",
+                                        "lakecolor": "white",
+                                        "landcolor": "white",
+                                        "showlakes": true,
+                                        "showland": true,
+                                        "subunitcolor": "white"
+                                    },
+                                    "hoverlabel": {
+                                        "align": "left"
+                                    },
+                                    "hovermode": "closest",
+                                    "mapbox": {
+                                        "style": "light"
+                                    },
+                                    "paper_bgcolor": "white",
+                                    "plot_bgcolor": "white",
+                                    "polar": {
+                                        "angularaxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        },
+                                        "bgcolor": "white",
+                                        "radialaxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        }
+                                    },
+                                    "scene": {
+                                        "xaxis": {
+                                            "backgroundcolor": "white",
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "gridwidth": 2,
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showbackground": true,
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside",
+                                            "zeroline": false,
+                                            "zerolinecolor": "rgb(36,36,36)"
+                                        },
+                                        "yaxis": {
+                                            "backgroundcolor": "white",
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "gridwidth": 2,
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showbackground": true,
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside",
+                                            "zeroline": false,
+                                            "zerolinecolor": "rgb(36,36,36)"
+                                        },
+                                        "zaxis": {
+                                            "backgroundcolor": "white",
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "gridwidth": 2,
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showbackground": true,
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside",
+                                            "zeroline": false,
+                                            "zerolinecolor": "rgb(36,36,36)"
+                                        }
+                                    },
+                                    "shapedefaults": {
+                                        "fillcolor": "black",
+                                        "line": {
+                                            "width": 0
+                                        },
+                                        "opacity": 0.3
+                                    },
+                                    "ternary": {
+                                        "aaxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        },
+                                        "baxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        },
+                                        "bgcolor": "white",
+                                        "caxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        }
+                                    },
+                                    "title": {
+                                        "x": 0.05
+                                    },
+                                    "xaxis": {
+                                        "automargin": true,
+                                        "gridcolor": "rgb(232,232,232)",
+                                        "linecolor": "rgb(36,36,36)",
+                                        "showgrid": false,
+                                        "showline": true,
+                                        "ticks": "outside",
+                                        "title": {
+                                            "standoff": 15
+                                        },
+                                        "zeroline": false,
+                                        "zerolinecolor": "rgb(36,36,36)"
+                                    },
+                                    "yaxis": {
+                                        "automargin": true,
+                                        "gridcolor": "rgb(232,232,232)",
+                                        "linecolor": "rgb(36,36,36)",
+                                        "showgrid": false,
+                                        "showline": true,
+                                        "ticks": "outside",
+                                        "title": {
+                                            "standoff": 15
+                                        },
+                                        "zeroline": false,
+                                        "zerolinecolor": "rgb(36,36,36)"
+                                    }
+                                }
+                            },
+                            "title": {
+                                "text": "Time Period vs NBRX Share Percentage",
+                                "font": {
+                                    "size": 22,
+                                    "color": "black",
+                                    "family": "Arial, sans-serif"
+                                }
+                            },
+                            "xaxis": {
+                                "title": {
+                                    "text": "Time Period",
+                                    "font": {
+                                        "size": 14,
+                                        "color": "black"
+                                    }
+                                },
+                                "tickangle": -45,
+                                "showgrid": true,
+                                "gridcolor": "lightgrey",
+                                "tickformat": "%b %d, %Y"
+                            },
+                            "yaxis": {
+                                "title": {
+                                    "text": "NBRX Share Percentage",
+                                    "font": {
+                                        "size": 14,
+                                        "color": "black"
+                                    }
+                                },
+                                "showgrid": true,
+                                "gridcolor": "lightgrey",
+                                "zeroline": true,
+                                "zerolinecolor": "grey",
+                                "zerolinewidth": 1.5
+                            },
+                            "margin": {
+                                "l": 60,
+                                "r": 60,
+                                "b": 60,
+                                "t": 60
+                            },
+                            "hovermode": "x unified",
+                            "plot_bgcolor": "rgba(240, 240, 240, 1)",
+                            "paper_bgcolor": "rgba(240, 240, 240, 1)"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "graphs",
+            "data": [
+                {
+                    "graph_type": "line",
+                    "graph_obj": {
+                        "data": [
+                            {
+                                "line": {
+                                    "color": "#1f77b4",
+                                    "width": 3
+                                },
+                                "marker": {
+                                    "color": "#1f77b4",
+                                    "line": {
+                                        "color": "darkblue",
+                                        "width": 1.5
+                                    },
+                                    "size": 7,
+                                    "symbol": "circle"
+                                },
+                                "mode": "lines+markers",
+                                "x": [
+                                    "2024-01-12T00:00:00",
+                                    "2024-01-19T00:00:00",
+                                    "2024-01-26T00:00:00",
+                                    "2024-02-02T00:00:00",
+                                    "2024-02-09T00:00:00",
+                                    "2024-02-16T00:00:00",
+                                    "2024-02-23T00:00:00",
+                                    "2024-03-01T00:00:00",
+                                    "2024-03-08T00:00:00",
+                                    "2024-03-15T00:00:00",
+                                    "2024-03-22T00:00:00",
+                                    "2024-03-29T00:00:00",
+                                    "2024-04-05T00:00:00",
+                                    "2024-04-12T00:00:00",
+                                    "2024-04-19T00:00:00",
+                                    "2024-04-26T00:00:00",
+                                    "2024-05-03T00:00:00",
+                                    "2024-05-10T00:00:00",
+                                    "2024-05-17T00:00:00",
+                                    "2024-05-24T00:00:00",
+                                    "2024-05-31T00:00:00",
+                                    "2024-06-07T00:00:00",
+                                    "2024-06-14T00:00:00",
+                                    "2024-06-21T00:00:00",
+                                    "2024-06-28T00:00:00",
+                                    "2024-07-05T00:00:00"
+                                ],
+                                "y": [
+                                    38.1,
+                                    5.45,
+                                    24.14,
+                                    26.32,
+                                    15.38,
+                                    30,
+                                    24.14,
+                                    25.93,
+                                    25.71,
+                                    38.89,
+                                    20,
+                                    27.91,
+                                    41.67,
+                                    23.53,
+                                    41.38,
+                                    12.5,
+                                    7.69,
+                                    21.33,
+                                    27.78,
+                                    23.08,
+                                    22.86,
+                                    18.92,
+                                    36.36,
+                                    27.59,
+                                    47.06,
+                                    38.46
+                                ],
+                                "type": "scatter"
+                            }
+                        ],
+                        "layout": {
+                            "template": {
+                                "data": {
+                                    "barpolar": [
+                                        {
+                                            "marker": {
+                                                "line": {
+                                                    "color": "white",
+                                                    "width": 0.5
+                                                },
+                                                "pattern": {
+                                                    "fillmode": "overlay",
+                                                    "size": 10,
+                                                    "solidity": 0.2
+                                                }
+                                            },
+                                            "type": "barpolar"
+                                        }
+                                    ],
+                                    "bar": [
+                                        {
+                                            "error_x": {
+                                                "color": "rgb(36,36,36)"
+                                            },
+                                            "error_y": {
+                                                "color": "rgb(36,36,36)"
+                                            },
+                                            "marker": {
+                                                "line": {
+                                                    "color": "white",
+                                                    "width": 0.5
+                                                },
+                                                "pattern": {
+                                                    "fillmode": "overlay",
+                                                    "size": 10,
+                                                    "solidity": 0.2
+                                                }
+                                            },
+                                            "type": "bar"
+                                        }
+                                    ],
+                                    "carpet": [
+                                        {
+                                            "aaxis": {
+                                                "endlinecolor": "rgb(36,36,36)",
+                                                "gridcolor": "white",
+                                                "linecolor": "white",
+                                                "minorgridcolor": "white",
+                                                "startlinecolor": "rgb(36,36,36)"
+                                            },
+                                            "baxis": {
+                                                "endlinecolor": "rgb(36,36,36)",
+                                                "gridcolor": "white",
+                                                "linecolor": "white",
+                                                "minorgridcolor": "white",
+                                                "startlinecolor": "rgb(36,36,36)"
+                                            },
+                                            "type": "carpet"
+                                        }
+                                    ],
+                                    "choropleth": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "type": "choropleth"
+                                        }
+                                    ],
+                                    "contourcarpet": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "type": "contourcarpet"
+                                        }
+                                    ],
+                                    "contour": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "contour"
+                                        }
+                                    ],
+                                    "heatmapgl": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "heatmapgl"
+                                        }
+                                    ],
+                                    "heatmap": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "heatmap"
+                                        }
+                                    ],
+                                    "histogram2dcontour": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "histogram2dcontour"
+                                        }
+                                    ],
+                                    "histogram2d": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "histogram2d"
+                                        }
+                                    ],
+                                    "histogram": [
+                                        {
+                                            "marker": {
+                                                "line": {
+                                                    "color": "white",
+                                                    "width": 0.6
+                                                }
+                                            },
+                                            "type": "histogram"
+                                        }
+                                    ],
+                                    "mesh3d": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "type": "mesh3d"
+                                        }
+                                    ],
+                                    "parcoords": [
+                                        {
+                                            "line": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "parcoords"
+                                        }
+                                    ],
+                                    "pie": [
+                                        {
+                                            "automargin": true,
+                                            "type": "pie"
+                                        }
+                                    ],
+                                    "scatter3d": [
+                                        {
+                                            "line": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatter3d"
+                                        }
+                                    ],
+                                    "scattercarpet": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattercarpet"
+                                        }
+                                    ],
+                                    "scattergeo": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattergeo"
+                                        }
+                                    ],
+                                    "scattergl": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattergl"
+                                        }
+                                    ],
+                                    "scattermapbox": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattermapbox"
+                                        }
+                                    ],
+                                    "scatterpolargl": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatterpolargl"
+                                        }
+                                    ],
+                                    "scatterpolar": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatterpolar"
+                                        }
+                                    ],
+                                    "scatter": [
+                                        {
+                                            "fillpattern": {
+                                                "fillmode": "overlay",
+                                                "size": 10,
+                                                "solidity": 0.2
+                                            },
+                                            "type": "scatter"
+                                        }
+                                    ],
+                                    "scatterternary": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatterternary"
+                                        }
+                                    ],
+                                    "surface": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "surface"
+                                        }
+                                    ],
+                                    "table": [
+                                        {
+                                            "cells": {
+                                                "fill": {
+                                                    "color": "rgb(237,237,237)"
+                                                },
+                                                "line": {
+                                                    "color": "white"
+                                                }
+                                            },
+                                            "header": {
+                                                "fill": {
+                                                    "color": "rgb(217,217,217)"
+                                                },
+                                                "line": {
+                                                    "color": "white"
+                                                }
+                                            },
+                                            "type": "table"
+                                        }
+                                    ]
+                                },
+                                "layout": {
+                                    "annotationdefaults": {
+                                        "arrowhead": 0,
+                                        "arrowwidth": 1
+                                    },
+                                    "autotypenumbers": "strict",
+                                    "coloraxis": {
+                                        "colorbar": {
+                                            "outlinewidth": 1,
+                                            "tickcolor": "rgb(36,36,36)",
+                                            "ticks": "outside"
+                                        }
+                                    },
+                                    "colorscale": {
+                                        "diverging": [
+                                            [
+                                                0,
+                                                "rgb(103,0,31)"
+                                            ],
+                                            [
+                                                0.1,
+                                                "rgb(178,24,43)"
+                                            ],
+                                            [
+                                                0.2,
+                                                "rgb(214,96,77)"
+                                            ],
+                                            [
+                                                0.3,
+                                                "rgb(244,165,130)"
+                                            ],
+                                            [
+                                                0.4,
+                                                "rgb(253,219,199)"
+                                            ],
+                                            [
+                                                0.5,
+                                                "rgb(247,247,247)"
+                                            ],
+                                            [
+                                                0.6,
+                                                "rgb(209,229,240)"
+                                            ],
+                                            [
+                                                0.7,
+                                                "rgb(146,197,222)"
+                                            ],
+                                            [
+                                                0.8,
+                                                "rgb(67,147,195)"
+                                            ],
+                                            [
+                                                0.9,
+                                                "rgb(33,102,172)"
+                                            ],
+                                            [
+                                                1,
+                                                "rgb(5,48,97)"
+                                            ]
+                                        ],
+                                        "sequential": [
+                                            [
+                                                0,
+                                                "#440154"
+                                            ],
+                                            [
+                                                0.1111111111111111,
+                                                "#482878"
+                                            ],
+                                            [
+                                                0.2222222222222222,
+                                                "#3e4989"
+                                            ],
+                                            [
+                                                0.3333333333333333,
+                                                "#31688e"
+                                            ],
+                                            [
+                                                0.4444444444444444,
+                                                "#26828e"
+                                            ],
+                                            [
+                                                0.5555555555555556,
+                                                "#1f9e89"
+                                            ],
+                                            [
+                                                0.6666666666666666,
+                                                "#35b779"
+                                            ],
+                                            [
+                                                0.7777777777777778,
+                                                "#6ece58"
+                                            ],
+                                            [
+                                                0.8888888888888888,
+                                                "#b5de2b"
+                                            ],
+                                            [
+                                                1,
+                                                "#fde725"
+                                            ]
+                                        ],
+                                        "sequentialminus": [
+                                            [
+                                                0,
+                                                "#440154"
+                                            ],
+                                            [
+                                                0.1111111111111111,
+                                                "#482878"
+                                            ],
+                                            [
+                                                0.2222222222222222,
+                                                "#3e4989"
+                                            ],
+                                            [
+                                                0.3333333333333333,
+                                                "#31688e"
+                                            ],
+                                            [
+                                                0.4444444444444444,
+                                                "#26828e"
+                                            ],
+                                            [
+                                                0.5555555555555556,
+                                                "#1f9e89"
+                                            ],
+                                            [
+                                                0.6666666666666666,
+                                                "#35b779"
+                                            ],
+                                            [
+                                                0.7777777777777778,
+                                                "#6ece58"
+                                            ],
+                                            [
+                                                0.8888888888888888,
+                                                "#b5de2b"
+                                            ],
+                                            [
+                                                1,
+                                                "#fde725"
+                                            ]
+                                        ]
+                                    },
+                                    "colorway": [
+                                        "#1F77B4",
+                                        "#FF7F0E",
+                                        "#2CA02C",
+                                        "#D62728",
+                                        "#9467BD",
+                                        "#8C564B",
+                                        "#E377C2",
+                                        "#7F7F7F",
+                                        "#BCBD22",
+                                        "#17BECF"
+                                    ],
+                                    "font": {
+                                        "color": "rgb(36,36,36)"
+                                    },
+                                    "geo": {
+                                        "bgcolor": "white",
+                                        "lakecolor": "white",
+                                        "landcolor": "white",
+                                        "showlakes": true,
+                                        "showland": true,
+                                        "subunitcolor": "white"
+                                    },
+                                    "hoverlabel": {
+                                        "align": "left"
+                                    },
+                                    "hovermode": "closest",
+                                    "mapbox": {
+                                        "style": "light"
+                                    },
+                                    "paper_bgcolor": "white",
+                                    "plot_bgcolor": "white",
+                                    "polar": {
+                                        "angularaxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        },
+                                        "bgcolor": "white",
+                                        "radialaxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        }
+                                    },
+                                    "scene": {
+                                        "xaxis": {
+                                            "backgroundcolor": "white",
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "gridwidth": 2,
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showbackground": true,
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside",
+                                            "zeroline": false,
+                                            "zerolinecolor": "rgb(36,36,36)"
+                                        },
+                                        "yaxis": {
+                                            "backgroundcolor": "white",
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "gridwidth": 2,
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showbackground": true,
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside",
+                                            "zeroline": false,
+                                            "zerolinecolor": "rgb(36,36,36)"
+                                        },
+                                        "zaxis": {
+                                            "backgroundcolor": "white",
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "gridwidth": 2,
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showbackground": true,
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside",
+                                            "zeroline": false,
+                                            "zerolinecolor": "rgb(36,36,36)"
+                                        }
+                                    },
+                                    "shapedefaults": {
+                                        "fillcolor": "black",
+                                        "line": {
+                                            "width": 0
+                                        },
+                                        "opacity": 0.3
+                                    },
+                                    "ternary": {
+                                        "aaxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        },
+                                        "baxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        },
+                                        "bgcolor": "white",
+                                        "caxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        }
+                                    },
+                                    "title": {
+                                        "x": 0.05
+                                    },
+                                    "xaxis": {
+                                        "automargin": true,
+                                        "gridcolor": "rgb(232,232,232)",
+                                        "linecolor": "rgb(36,36,36)",
+                                        "showgrid": false,
+                                        "showline": true,
+                                        "ticks": "outside",
+                                        "title": {
+                                            "standoff": 15
+                                        },
+                                        "zeroline": false,
+                                        "zerolinecolor": "rgb(36,36,36)"
+                                    },
+                                    "yaxis": {
+                                        "automargin": true,
+                                        "gridcolor": "rgb(232,232,232)",
+                                        "linecolor": "rgb(36,36,36)",
+                                        "showgrid": false,
+                                        "showline": true,
+                                        "ticks": "outside",
+                                        "title": {
+                                            "standoff": 15
+                                        },
+                                        "zeroline": false,
+                                        "zerolinecolor": "rgb(36,36,36)"
+                                    }
+                                }
+                            },
+                            "title": {
+                                "text": "Time Period vs NBRX Share Percentage",
+                                "font": {
+                                    "size": 22,
+                                    "color": "black",
+                                    "family": "Arial, sans-serif"
+                                }
+                            },
+                            "xaxis": {
+                                "title": {
+                                    "text": "Time Period",
+                                    "font": {
+                                        "size": 14,
+                                        "color": "black"
+                                    }
+                                },
+                                "tickangle": -45,
+                                "showgrid": true,
+                                "gridcolor": "lightgrey",
+                                "tickformat": "%b %d, %Y"
+                            },
+                            "yaxis": {
+                                "title": {
+                                    "text": "NBRX Share Percentage",
+                                    "font": {
+                                        "size": 14,
+                                        "color": "black"
+                                    }
+                                },
+                                "showgrid": true,
+                                "gridcolor": "lightgrey",
+                                "zeroline": true,
+                                "zerolinecolor": "grey",
+                                "zerolinewidth": 1.5
+                            },
+                            "margin": {
+                                "l": 60,
+                                "r": 60,
+                                "b": 60,
+                                "t": 60
+                            },
+                            "hovermode": "x unified",
+                            "plot_bgcolor": "rgba(240, 240, 240, 1)",
+                            "paper_bgcolor": "rgba(240, 240, 240, 1)"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "session_history": {
+        "session_id": 935,
+        "app_id": 1,
+        "session_history_id": 5499,
+        "session_history_uuid": "ee6ffdab-1c62-4f03-ad69-deae7e417ad0"
+    },
+    "score_details": {
+        "score": "{}",
+        "average_score": 0
+    },
+    "hist_agnt_rsp_ids": [
+        3901
+    ],
+    "complete_latency_info_str": "\n\n -> Latency Information: \ncreate_session_history_genai: 55.216 ms, \n\nget_app_agents: 146.109 ms, \n\ngenerate_sub_systems_directly: 0.332 ms, \n\nget_session_history: 18.902 ms, \n\nget_session_history_for_genai: 20.285 ms, \n\nget_app_agents: 95.67 ms, \n\ngenerate_sub_systems_directly: 0.306 ms, \n\nbypass_classifier_embedding: 96.459 ms, \n\nquestion_sentiment_analyzer: 2489.971 ms, \n\nasync_extract_physician_name: 3119.211 ms, \n\nasync_question_breakdown_and_reframing_module: 4183.605 ms, \n\nrag_based_planner: 695.48 ms, \n\nuser_based_question_validation: 4906.219 ms, \n\nasync_final_llm_based_router: 752.69 ms, \n\nget_final_llm_based_router: 753.862 ms, \n\nplanner_agent_with_optimized_latency: 5633.1 ms, \n\nget_validations: 5671.136 ms, \n\ncontains_numeric_id: 0.013 ms, \n\nget_api_call: 837.846 ms, \n\ndynamic_entity_extraction: 1114.263 ms, \n\ndynamic_entity_extraction: 1250.471 ms, \n\ndynamic_entity_extraction: 2160.816 ms, \n\nasync_nudging: 2187.942 ms, \n\nextract_dynamic_parameters: 2188.846 ms, \n\ndynamic_nudging_for_parameters_list: 3026.742 ms, \n\ncheck_word_match: 0.015 ms, \n\ncheck_word_match: 0.01 ms, \n\npost_api_call: 4402.188 ms, \n\nget_payload_response: 4481.461 ms, \n\ndynamic_text_to_agent: 7508.558 ms, \n\nasync_agent_execution: 7509.454 ms, \n\nexecute_agents: 7509.483 ms, \n\nasync_summarize_response: 20969.643 ms, \n\ninitiate_conversation: 34372.834 ms, \n\n"
+}

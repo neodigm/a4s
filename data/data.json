@@ -1,0 +1,898 @@
+[
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "05/05/2023",
+      "metrics-NBRX_VOL_PROD": "95"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "04/28/2023",
+      "metrics-NBRX_VOL_PROD": "86"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "04/21/2023",
+      "metrics-NBRX_VOL_PROD": "74"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "04/14/2023",
+      "metrics-NBRX_VOL_PROD": "52"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "04/07/2023",
+      "metrics-NBRX_VOL_PROD": "59"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "03/31/2023",
+      "metrics-NBRX_VOL_PROD": "45"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "03/24/2023",
+      "metrics-NBRX_VOL_PROD": "46"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "03/17/2023",
+      "metrics-NBRX_VOL_PROD": "37"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "03/10/2023",
+      "metrics-NBRX_VOL_PROD": "28"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "03/03/2023",
+      "metrics-NBRX_VOL_PROD": "25"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "02/24/2023",
+      "metrics-NBRX_VOL_PROD": "29"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "02/17/2023",
+      "metrics-NBRX_VOL_PROD": "27"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "02/10/2023",
+      "metrics-NBRX_VOL_PROD": "29"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "02/03/2023",
+      "metrics-NBRX_VOL_PROD": "25"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "01/27/2023",
+      "metrics-NBRX_VOL_PROD": "34"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Simponi",
+      "time-period": "01/20/2023",
+      "metrics-NBRX_VOL_PROD": "30"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "05/05/2023",
+      "metrics-NBRX_VOL_PROD": "1148"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "04/28/2023",
+      "metrics-NBRX_VOL_PROD": "1049"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "04/21/2023",
+      "metrics-NBRX_VOL_PROD": "928"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "04/14/2023",
+      "metrics-NBRX_VOL_PROD": "889"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "04/07/2023",
+      "metrics-NBRX_VOL_PROD": "934"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "03/31/2023",
+      "metrics-NBRX_VOL_PROD": "916"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "03/24/2023",
+      "metrics-NBRX_VOL_PROD": "967"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "03/17/2023",
+      "metrics-NBRX_VOL_PROD": "924"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "03/10/2023",
+      "metrics-NBRX_VOL_PROD": "794"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "03/03/2023",
+      "metrics-NBRX_VOL_PROD": "851"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "02/24/2023",
+      "metrics-NBRX_VOL_PROD": "660"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "02/17/2023",
+      "metrics-NBRX_VOL_PROD": "641"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "02/10/2023",
+      "metrics-NBRX_VOL_PROD": "890"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "02/03/2023",
+      "metrics-NBRX_VOL_PROD": "970"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "01/27/2023",
+      "metrics-NBRX_VOL_PROD": "872"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "HUMIRA",
+      "time-period": "01/20/2023",
+      "metrics-NBRX_VOL_PROD": "890"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "05/05/2023",
+      "metrics-NBRX_VOL_PROD": "92"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "04/28/2023",
+      "metrics-NBRX_VOL_PROD": "107"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "04/21/2023",
+      "metrics-NBRX_VOL_PROD": "105"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "04/14/2023",
+      "metrics-NBRX_VOL_PROD": "123"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "04/07/2023",
+      "metrics-NBRX_VOL_PROD": "135"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "03/31/2023",
+      "metrics-NBRX_VOL_PROD": "127"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "03/24/2023",
+      "metrics-NBRX_VOL_PROD": "136"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "03/17/2023",
+      "metrics-NBRX_VOL_PROD": "117"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "03/10/2023",
+      "metrics-NBRX_VOL_PROD": "127"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "03/03/2023",
+      "metrics-NBRX_VOL_PROD": "109"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "02/24/2023",
+      "metrics-NBRX_VOL_PROD": "75"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "02/17/2023",
+      "metrics-NBRX_VOL_PROD": "69"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "02/10/2023",
+      "metrics-NBRX_VOL_PROD": "104"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "02/03/2023",
+      "metrics-NBRX_VOL_PROD": "88"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "01/27/2023",
+      "metrics-NBRX_VOL_PROD": "125"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Skyrizi",
+      "time-period": "01/20/2023",
+      "metrics-NBRX_VOL_PROD": "110"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "05/05/2023",
+      "metrics-NBRX_VOL_PROD": "161"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "04/28/2023",
+      "metrics-NBRX_VOL_PROD": "188"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "04/21/2023",
+      "metrics-NBRX_VOL_PROD": "169"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "04/14/2023",
+      "metrics-NBRX_VOL_PROD": "126"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "04/07/2023",
+      "metrics-NBRX_VOL_PROD": "154"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "03/31/2023",
+      "metrics-NBRX_VOL_PROD": "196"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "03/24/2023",
+      "metrics-NBRX_VOL_PROD": "153"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "03/17/2023",
+      "metrics-NBRX_VOL_PROD": "189"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "03/10/2023",
+      "metrics-NBRX_VOL_PROD": "168"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "03/03/2023",
+      "metrics-NBRX_VOL_PROD": "136"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "02/24/2023",
+      "metrics-NBRX_VOL_PROD": "129"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "02/17/2023",
+      "metrics-NBRX_VOL_PROD": "79"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "02/10/2023",
+      "metrics-NBRX_VOL_PROD": "98"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "02/03/2023",
+      "metrics-NBRX_VOL_PROD": "112"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "01/27/2023",
+      "metrics-NBRX_VOL_PROD": "125"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Xeljanz",
+      "time-period": "01/20/2023",
+      "metrics-NBRX_VOL_PROD": "135"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "05/05/2023",
+      "metrics-NBRX_VOL_PROD": "196"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "04/28/2023",
+      "metrics-NBRX_VOL_PROD": "219"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "04/21/2023",
+      "metrics-NBRX_VOL_PROD": "213"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "04/14/2023",
+      "metrics-NBRX_VOL_PROD": "188"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "04/07/2023",
+      "metrics-NBRX_VOL_PROD": "226"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "03/31/2023",
+      "metrics-NBRX_VOL_PROD": "231"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "03/24/2023",
+      "metrics-NBRX_VOL_PROD": "207"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "03/17/2023",
+      "metrics-NBRX_VOL_PROD": "227"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "03/10/2023",
+      "metrics-NBRX_VOL_PROD": "184"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "03/03/2023",
+      "metrics-NBRX_VOL_PROD": "190"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "02/24/2023",
+      "metrics-NBRX_VOL_PROD": "135"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "02/17/2023",
+      "metrics-NBRX_VOL_PROD": "127"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "02/10/2023",
+      "metrics-NBRX_VOL_PROD": "163"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "02/03/2023",
+      "metrics-NBRX_VOL_PROD": "185"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "01/27/2023",
+      "metrics-NBRX_VOL_PROD": "178"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Zeposia",
+      "time-period": "01/20/2023",
+      "metrics-NBRX_VOL_PROD": "167"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "05/05/2023",
+      "metrics-NBRX_VOL_PROD": "565"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "04/28/2023",
+      "metrics-NBRX_VOL_PROD": "635"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "04/21/2023",
+      "metrics-NBRX_VOL_PROD": "581"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "04/14/2023",
+      "metrics-NBRX_VOL_PROD": "506"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "04/07/2023",
+      "metrics-NBRX_VOL_PROD": "623"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "03/31/2023",
+      "metrics-NBRX_VOL_PROD": "613"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "03/24/2023",
+      "metrics-NBRX_VOL_PROD": "640"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "03/17/2023",
+      "metrics-NBRX_VOL_PROD": "634"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "03/10/2023",
+      "metrics-NBRX_VOL_PROD": "579"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "03/03/2023",
+      "metrics-NBRX_VOL_PROD": "665"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "02/24/2023",
+      "metrics-NBRX_VOL_PROD": "370"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "02/17/2023",
+      "metrics-NBRX_VOL_PROD": "306"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "02/10/2023",
+      "metrics-NBRX_VOL_PROD": "403"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "02/03/2023",
+      "metrics-NBRX_VOL_PROD": "439"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "01/27/2023",
+      "metrics-NBRX_VOL_PROD": "458"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Stelara SI",
+      "time-period": "01/20/2023",
+      "metrics-NBRX_VOL_PROD": "429"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "05/05/2023",
+      "metrics-NBRX_VOL_PROD": "76"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "04/28/2023",
+      "metrics-NBRX_VOL_PROD": "99"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "04/21/2023",
+      "metrics-NBRX_VOL_PROD": "81"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "04/14/2023",
+      "metrics-NBRX_VOL_PROD": "95"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "04/07/2023",
+      "metrics-NBRX_VOL_PROD": "89"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "03/31/2023",
+      "metrics-NBRX_VOL_PROD": "90"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "03/24/2023",
+      "metrics-NBRX_VOL_PROD": "90"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "03/17/2023",
+      "metrics-NBRX_VOL_PROD": "87"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "03/10/2023",
+      "metrics-NBRX_VOL_PROD": "70"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "03/03/2023",
+      "metrics-NBRX_VOL_PROD": "95"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "02/24/2023",
+      "metrics-NBRX_VOL_PROD": "63"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "02/17/2023",
+      "metrics-NBRX_VOL_PROD": "55"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "02/10/2023",
+      "metrics-NBRX_VOL_PROD": "77"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "02/03/2023",
+      "metrics-NBRX_VOL_PROD": "79"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "01/27/2023",
+      "metrics-NBRX_VOL_PROD": "82"
+    },
+    {
+      "current-Period": "03/11/2023 - 05/05/2023",
+      "previous-Period": "01/14/2023 - 03/10/2023",
+      "name": "nation",
+      "product": "Rinvoq",
+      "time-period": "01/20/2023",
+      "metrics-NBRX_VOL_PROD": "75"
+    }
+  ]
