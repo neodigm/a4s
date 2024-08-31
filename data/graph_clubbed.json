@@ -1,0 +1,3107 @@
+{
+    "thought_process": "-> Plan : \n[{'reframed_question': 'Give me the TRX of Skyrizi for the last 13 weeks for Richa Shukla (Physician ID : 4448917)', 'module_id': 'sypher-metrics', 'agent_config': '{\"base_url\": \"http://10.242.29.88:8515\", \"api_version\": \"v1.0\", \"agent_type\": \"apiagent\", \"method\": \"GET\", \"params\": {}, \"payload\": {}, \"agent_brief_description\": \"APIAgent Test K8 link for \", \"source_system_env\": \"K8\", \"agent_name\": \"API Agent - Field Systems\", \"administrative_endpoint\": \"http://10.242.29.88:8515/apiagent/api/v1.0/query\", \"selected_subsystems\": [\"sypher-metrics\", \"sypher-trends\"]}', 'tool_id': 135, 'agent_id': 8}]\n \n -> Payload Generated : \n[{'sessionId': '2325', 'correlationId': 'dec554e3-f20d-436e-af77-8323c6ff4efd', 'requestId': '12755', 'requestType': 'QUERY', 'question': 'Give me the TRX of Skyrizi for the last 13 weeks for Richa Shukla (Physician ID : 4448917)', 'moduleId': 'sypher-metrics', 'clientId': 'Orchestrator-GUID', 'userInfo': {'name': 'Chris Drummond', 'email': 'chris.drummond@abbvie.com.invalid', 'role': 'REP', 'attributes': [{'attributeName': 'geolevel', 'attributeValue': 'territory'}, {'attributeName': 'geoIdValue', 'attributeValue': 'ING22'}, {'attributeName': 'franchisename', 'attributeValue': 'Immunology - Gastro'}, {'attributeName': 'productname', 'attributeValue': \"['SKYRIZI', 'RINVOQ']\"}, {'attributeName': 'salesforce', 'attributeValue': 'AI5'}]}, 'parameters': [{'paramName': 'physicianId', 'paramValue': '4448917'}, {'paramName': 'product', 'paramValue': 'Skyrizi'}, {'paramName': 'time', 'paramValue': 'Last 13 weeks'}, {'paramName': 'salesforce', 'paramValue': 'AI5'}]}]\n\n -> Agent's Response : \n{'sessionId': '2325', 'correlationId': 'dec554e3-f20d-436e-af77-8323c6ff4efd', 'requestId': '12755', 'status': 'Success', 'userInfo': {'name': 'Chris Drummond', 'email': 'chris.drummond@abbvie.com.invalid', 'role': 'REP'}, 'agentId': None, 'moduleId': 'sypher-metrics', 'summarize': False, 'response': {'recommended_questions': [{'header': 'How about these time periods?', 'group': '', 'ranking': '', 'values': [{'label': 'For Last 4 weeks', 'value': 'what is the nbrx volume for Rinvoq for last 4weeks'}, {'label': 'For Last 13 weeks', 'value': 'what is the trx volume for Rinvoq for last 4weeks'}, {'label': 'For Last 13 weeks', 'value': 'rx volume for last 13 weeks for SKYRIZI OBI'}]}, {'header': 'How about these products?', 'group': '', 'ranking': '', 'questions': [{'label': 'Rinvoq', 'question': 'what is the nbrx volume for Rinvoq for last 4weeks'}, {'label': 'Humira', 'question': 'what is the trx volume for Humira for last 4weeks'}]}], 'summary': [{'type': 'summarized', 'summary': 'In the last 13 weeks, there were 57 total TRx prescriptions written for Skyrizi. This represents an increase of 15 prescriptions compared to the previous 13 weeks. The market share of Skyrizi also increased by 4.48% and currently stands at 21.31%. \\n\\n In the last 13 weeks, there were a total of 267 prescriptions written for all products in the Biologics market. This represents an increase of 18 prescriptions compared to the previous 13 weeks period. \\n\\n The top competitor product with the highest number of total prescriptions in the last 13 weeks period was Stelara SI. The trend data shows that the number of total prescriptions for Stelara SI has been fluctuating over the last 13 weeks, with the highest number of prescriptions recorded on 06/21/2024 (14 TRx) and the lowest on 05/31/2024 (2 TRx).'}, {'type': 'formatted', 'summary': '<html lang=\"en\">\\n<head>\\n<meta charset=\"UTF-8\">\\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n<style>\\n.increase {color: green;}\\n.decrease {color: red;}\\n</style>\\n<title>Prescription Data</title>\\n</head>\\n<body style=\"background-color: #e5e5ea;\">\\n<p>In the last 13 weeks, there were <b>57</b> total TRx prescriptions written for Skyrizi. This represents an increase of <span class=\"increase\"><b>15</b> &#9650;</span> prescriptions compared to the previous 13 weeks. The market share of Skyrizi also increased by <span class=\"increase\"><b>4.48%</b> &#9650;</span> and currently stands at <b>21.31%</b>.</p>\\n\\n<p>In the last 13 weeks, there were a total of <b>267</b> prescriptions written for all products in the Biologics market. This represents an increase of <b>18</b> prescriptions compared to the previous 13 weeks period.</p>\\n\\n<p>The top competitor product with the highest number of total prescriptions in the last 13 weeks period was Stelara SI. The trend data shows that the number of total prescriptions for Stelara SI has been fluctuating over the last 13 weeks, with the highest number of prescriptions recorded on 06/21/2024 (14 TRx) and the lowest on 05/31/2024 (2 TRx).</p>\\n</body>\\n</html>'}], 'viz_attributes': {'visualization_type': 'line', 'title': 'TRx volume trends for competitor products', 'x_axis': 'time-period', 'x_axis_label': 'TIME', 'y_axis': 'metrics_TRX_VOL_PROD', 'y_axis_label': 'TRx volume'}, 'data': {'data_type': 'TRENDS', 'metrics_name': 'TRX_VOL_PROD', 'metrics_data': [{'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Xeljanz', 'time-period': '08/09/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Xeljanz', 'time-period': '08/02/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Xeljanz', 'time-period': '07/26/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Xeljanz', 'time-period': '07/19/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Xeljanz', 'time-period': '07/12/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Xeljanz', 'time-period': '07/05/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Xeljanz', 'time-period': '06/28/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Xeljanz', 'time-period': '06/21/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Xeljanz', 'time-period': '06/14/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Xeljanz', 'time-period': '06/07/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Xeljanz', 'time-period': '05/31/2024', 'metrics-TRX_VOL_PROD': '3'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Xeljanz', 'time-period': '05/24/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Xeljanz', 'time-period': '05/17/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Ada Biosimilar', 'time-period': '08/09/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Ada Biosimilar', 'time-period': '08/02/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Ada Biosimilar', 'time-period': '07/26/2024', 'metrics-TRX_VOL_PROD': '2'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Ada Biosimilar', 'time-period': '07/19/2024', 'metrics-TRX_VOL_PROD': '1'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Ada Biosimilar', 'time-period': '07/12/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Ada Biosimilar', 'time-period': '07/05/2024', 'metrics-TRX_VOL_PROD': '1'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Ada Biosimilar', 'time-period': '06/28/2024', 'metrics-TRX_VOL_PROD': '2'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Ada Biosimilar', 'time-period': '06/21/2024', 'metrics-TRX_VOL_PROD': '1'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Ada Biosimilar', 'time-period': '06/14/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Ada Biosimilar', 'time-period': '06/07/2024', 'metrics-TRX_VOL_PROD': '2'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Ada Biosimilar', 'time-period': '05/31/2024', 'metrics-TRX_VOL_PROD': '1'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Ada Biosimilar', 'time-period': '05/24/2024', 'metrics-TRX_VOL_PROD': '1'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Ada Biosimilar', 'time-period': '05/17/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Stelara SI', 'time-period': '08/09/2024', 'metrics-TRX_VOL_PROD': '7'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Stelara SI', 'time-period': '08/02/2024', 'metrics-TRX_VOL_PROD': '9'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Stelara SI', 'time-period': '07/26/2024', 'metrics-TRX_VOL_PROD': '13'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Stelara SI', 'time-period': '07/19/2024', 'metrics-TRX_VOL_PROD': '5'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Stelara SI', 'time-period': '07/12/2024', 'metrics-TRX_VOL_PROD': '7'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Stelara SI', 'time-period': '07/05/2024', 'metrics-TRX_VOL_PROD': '4'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Stelara SI', 'time-period': '06/28/2024', 'metrics-TRX_VOL_PROD': '9'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Stelara SI', 'time-period': '06/21/2024', 'metrics-TRX_VOL_PROD': '14'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Stelara SI', 'time-period': '06/14/2024', 'metrics-TRX_VOL_PROD': '9'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Stelara SI', 'time-period': '06/07/2024', 'metrics-TRX_VOL_PROD': '7'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Stelara SI', 'time-period': '05/31/2024', 'metrics-TRX_VOL_PROD': '2'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Stelara SI', 'time-period': '05/24/2024', 'metrics-TRX_VOL_PROD': '11'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Stelara SI', 'time-period': '05/17/2024', 'metrics-TRX_VOL_PROD': '13'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Simponi', 'time-period': '08/09/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Simponi', 'time-period': '08/02/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Simponi', 'time-period': '07/26/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Simponi', 'time-period': '07/19/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Simponi', 'time-period': '07/12/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Simponi', 'time-period': '07/05/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Simponi', 'time-period': '06/28/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Simponi', 'time-period': '06/21/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Simponi', 'time-period': '06/14/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Simponi', 'time-period': '06/07/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Simponi', 'time-period': '05/31/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Simponi', 'time-period': '05/24/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Simponi', 'time-period': '05/17/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Zeposia', 'time-period': '08/09/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Zeposia', 'time-period': '08/02/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Zeposia', 'time-period': '07/26/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Zeposia', 'time-period': '07/19/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Zeposia', 'time-period': '07/12/2024', 'metrics-TRX_VOL_PROD': '1'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Zeposia', 'time-period': '07/05/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Zeposia', 'time-period': '06/28/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Zeposia', 'time-period': '06/21/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Zeposia', 'time-period': '06/14/2024', 'metrics-TRX_VOL_PROD': '1'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Zeposia', 'time-period': '06/07/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Zeposia', 'time-period': '05/31/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Zeposia', 'time-period': '05/24/2024', 'metrics-TRX_VOL_PROD': '0'}, {'current-Period': '05/11/2024 - 08/09/2024', 'previous-Period': '', 'name': 'Houston S, TX', 'product': 'Zeposia', 'time-period': '05/17/2024', 'metrics-TRX_VOL_PROD': '0'}]}}, 'error': {}}\n \n\n -> Latency Information: \nByPass Classifier: 70.258 ms, \n\nValidation's HCP ID Retrival: 1042.316 ms, \n\nValidation's Sentiment Analyzer: 1180.184 ms, \n\nValidation's User Based Question Validation: 1382.365 ms, \n\nPlanner Question Breakdown and Reframing: 1852.176 ms, \n\nPlanner RAG Based Approach: 694.646 ms, \n\nPlanner LLM Based Router: 725.93 ms, \n\nPlanner Agent: 3272.936 ms, \n\nValidations: 3288.567 ms, \n\nNudging: 1210.944 ms, \n\nAgent Execution: 10127.074 ms, \n\nSummarizer: 9236.468 ms, \n\nTotal Time: 22911.052 ms, \n\n",
+    "summarized_response": [
+        {
+            "type": "htmlContent",
+            "data": "<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<style>\n.increase {color: green;}\n.decrease {color: red;}\n</style>\n<title>Prescription Data</title>\n</head>\n<body style=\"background-color: #e5e5ea;\">\n<p>In the last 13 weeks, there were <b>57</b> total TRx prescriptions written for Skyrizi. This represents an increase of <span class=\"increase\"><b>15</b> &#9650;</span> prescriptions compared to the previous 13 weeks. The market share of Skyrizi also increased by <span class=\"increase\"><b>4.48%</b> &#9650;</span> and currently stands at <b>21.31%</b>.</p>\n\n<p>In the last 13 weeks, there were a total of <b>267</b> prescriptions written for all products in the Biologics market. This represents an increase of <b>18</b> prescriptions compared to the previous 13 weeks period.</p>\n\n<p>The top competitor product with the highest number of total prescriptions in the last 13 weeks period was Stelara SI. The trend data shows that the number of total prescriptions for Stelara SI has been fluctuating over the last 13 weeks, with the highest number of prescriptions recorded on 06/21/2024 (14 TRx) and the lowest on 05/31/2024 (2 TRx).</p>\n</body>\n</html>"
+        },
+        {
+            "type": "data",
+            "data": {
+                "data_type": "TRENDS",
+                "metrics_name": "TRX_VOL_PROD",
+                "metrics_data": [
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Xeljanz",
+                        "time-period": "08/09/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Xeljanz",
+                        "time-period": "08/02/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Xeljanz",
+                        "time-period": "07/26/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Xeljanz",
+                        "time-period": "07/19/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Xeljanz",
+                        "time-period": "07/12/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Xeljanz",
+                        "time-period": "07/05/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Xeljanz",
+                        "time-period": "06/28/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Xeljanz",
+                        "time-period": "06/21/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Xeljanz",
+                        "time-period": "06/14/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Xeljanz",
+                        "time-period": "06/07/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Xeljanz",
+                        "time-period": "05/31/2024",
+                        "metrics-TRX_VOL_PROD": "3"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Xeljanz",
+                        "time-period": "05/24/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Xeljanz",
+                        "time-period": "05/17/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Ada Biosimilar",
+                        "time-period": "08/09/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Ada Biosimilar",
+                        "time-period": "08/02/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Ada Biosimilar",
+                        "time-period": "07/26/2024",
+                        "metrics-TRX_VOL_PROD": "2"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Ada Biosimilar",
+                        "time-period": "07/19/2024",
+                        "metrics-TRX_VOL_PROD": "1"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Ada Biosimilar",
+                        "time-period": "07/12/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Ada Biosimilar",
+                        "time-period": "07/05/2024",
+                        "metrics-TRX_VOL_PROD": "1"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Ada Biosimilar",
+                        "time-period": "06/28/2024",
+                        "metrics-TRX_VOL_PROD": "2"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Ada Biosimilar",
+                        "time-period": "06/21/2024",
+                        "metrics-TRX_VOL_PROD": "1"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Ada Biosimilar",
+                        "time-period": "06/14/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Ada Biosimilar",
+                        "time-period": "06/07/2024",
+                        "metrics-TRX_VOL_PROD": "2"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Ada Biosimilar",
+                        "time-period": "05/31/2024",
+                        "metrics-TRX_VOL_PROD": "1"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Ada Biosimilar",
+                        "time-period": "05/24/2024",
+                        "metrics-TRX_VOL_PROD": "1"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Ada Biosimilar",
+                        "time-period": "05/17/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Stelara SI",
+                        "time-period": "08/09/2024",
+                        "metrics-TRX_VOL_PROD": "7"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Stelara SI",
+                        "time-period": "08/02/2024",
+                        "metrics-TRX_VOL_PROD": "9"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Stelara SI",
+                        "time-period": "07/26/2024",
+                        "metrics-TRX_VOL_PROD": "13"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Stelara SI",
+                        "time-period": "07/19/2024",
+                        "metrics-TRX_VOL_PROD": "5"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Stelara SI",
+                        "time-period": "07/12/2024",
+                        "metrics-TRX_VOL_PROD": "7"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Stelara SI",
+                        "time-period": "07/05/2024",
+                        "metrics-TRX_VOL_PROD": "4"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Stelara SI",
+                        "time-period": "06/28/2024",
+                        "metrics-TRX_VOL_PROD": "9"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Stelara SI",
+                        "time-period": "06/21/2024",
+                        "metrics-TRX_VOL_PROD": "14"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Stelara SI",
+                        "time-period": "06/14/2024",
+                        "metrics-TRX_VOL_PROD": "9"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Stelara SI",
+                        "time-period": "06/07/2024",
+                        "metrics-TRX_VOL_PROD": "7"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Stelara SI",
+                        "time-period": "05/31/2024",
+                        "metrics-TRX_VOL_PROD": "2"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Stelara SI",
+                        "time-period": "05/24/2024",
+                        "metrics-TRX_VOL_PROD": "11"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Stelara SI",
+                        "time-period": "05/17/2024",
+                        "metrics-TRX_VOL_PROD": "13"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Simponi",
+                        "time-period": "08/09/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Simponi",
+                        "time-period": "08/02/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Simponi",
+                        "time-period": "07/26/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Simponi",
+                        "time-period": "07/19/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Simponi",
+                        "time-period": "07/12/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Simponi",
+                        "time-period": "07/05/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Simponi",
+                        "time-period": "06/28/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Simponi",
+                        "time-period": "06/21/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Simponi",
+                        "time-period": "06/14/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Simponi",
+                        "time-period": "06/07/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Simponi",
+                        "time-period": "05/31/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Simponi",
+                        "time-period": "05/24/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Simponi",
+                        "time-period": "05/17/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Zeposia",
+                        "time-period": "08/09/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Zeposia",
+                        "time-period": "08/02/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Zeposia",
+                        "time-period": "07/26/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Zeposia",
+                        "time-period": "07/19/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Zeposia",
+                        "time-period": "07/12/2024",
+                        "metrics-TRX_VOL_PROD": "1"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Zeposia",
+                        "time-period": "07/05/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Zeposia",
+                        "time-period": "06/28/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Zeposia",
+                        "time-period": "06/21/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Zeposia",
+                        "time-period": "06/14/2024",
+                        "metrics-TRX_VOL_PROD": "1"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Zeposia",
+                        "time-period": "06/07/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Zeposia",
+                        "time-period": "05/31/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Zeposia",
+                        "time-period": "05/24/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    },
+                    {
+                        "current-Period": "05/11/2024 - 08/09/2024",
+                        "previous-Period": "",
+                        "name": "Houston S, TX",
+                        "product": "Zeposia",
+                        "time-period": "05/17/2024",
+                        "metrics-TRX_VOL_PROD": "0"
+                    }
+                ]
+            },
+            "visualization": [
+                {
+                    "visualization_type": "multiline",
+                    "visualization_properties": {
+                        "title": "TRx Volume Trends for Competitor Products",
+                        "x": [
+                            [
+                                "2024-05-17",
+                                "2024-05-24",
+                                "2024-05-31",
+                                "2024-06-07",
+                                "2024-06-14",
+                                "2024-06-21",
+                                "2024-06-28",
+                                "2024-07-05",
+                                "2024-07-12",
+                                "2024-07-19",
+                                "2024-07-26",
+                                "2024-08-02",
+                                "2024-08-09"
+                            ],
+                            [
+                                "2024-05-17",
+                                "2024-05-24",
+                                "2024-05-31",
+                                "2024-06-07",
+                                "2024-06-14",
+                                "2024-06-21",
+                                "2024-06-28",
+                                "2024-07-05",
+                                "2024-07-12",
+                                "2024-07-19",
+                                "2024-07-26",
+                                "2024-08-02",
+                                "2024-08-09"
+                            ],
+                            [
+                                "2024-05-17",
+                                "2024-05-24",
+                                "2024-05-31",
+                                "2024-06-07",
+                                "2024-06-14",
+                                "2024-06-21",
+                                "2024-06-28",
+                                "2024-07-05",
+                                "2024-07-12",
+                                "2024-07-19",
+                                "2024-07-26",
+                                "2024-08-02",
+                                "2024-08-09"
+                            ],
+                            [
+                                "2024-05-17",
+                                "2024-05-24",
+                                "2024-05-31",
+                                "2024-06-07",
+                                "2024-06-14",
+                                "2024-06-21",
+                                "2024-06-28",
+                                "2024-07-05",
+                                "2024-07-12",
+                                "2024-07-19",
+                                "2024-07-26",
+                                "2024-08-02",
+                                "2024-08-09"
+                            ],
+                            [
+                                "2024-05-17",
+                                "2024-05-24",
+                                "2024-05-31",
+                                "2024-06-07",
+                                "2024-06-14",
+                                "2024-06-21",
+                                "2024-06-28",
+                                "2024-07-05",
+                                "2024-07-12",
+                                "2024-07-19",
+                                "2024-07-26",
+                                "2024-08-02",
+                                "2024-08-09"
+                            ]
+                        ],
+                        "y": [
+                            [
+                                "0",
+                                "0",
+                                "3",
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            [
+                                "0",
+                                "1",
+                                "1",
+                                "2",
+                                "0",
+                                "1",
+                                "2",
+                                "1",
+                                "0",
+                                "1",
+                                "2",
+                                "0",
+                                "0"
+                            ],
+                            [
+                                "13",
+                                "11",
+                                "2",
+                                "7",
+                                "9",
+                                "14",
+                                "9",
+                                "4",
+                                "7",
+                                "5",
+                                "13",
+                                "9",
+                                "7"
+                            ],
+                            [
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            [
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "1",
+                                "0",
+                                "0",
+                                "0",
+                                "1",
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ]
+                        ],
+                        "x_label": "Time Period",
+                        "y_label": "TRx Volume",
+                        "hue": {
+                            "title": "Product",
+                            "data": [
+                                "Xeljanz",
+                                "Ada Biosimilar",
+                                "Stelara SI",
+                                "Simponi",
+                                "Zeposia"
+                            ]
+                        }
+                    },
+                    "visualization_object": {
+                        "data": [
+                            {
+                                "line": {
+                                    "color": "#1f77b4",
+                                    "width": 3
+                                },
+                                "marker": {
+                                    "color": "#1f77b4",
+                                    "line": {
+                                        "color": "black",
+                                        "width": 1
+                                    },
+                                    "size": 7,
+                                    "symbol": "circle"
+                                },
+                                "mode": "lines+markers",
+                                "name": "Xeljanz",
+                                "x": [
+                                    "2024-05-17T00:00:00",
+                                    "2024-05-24T00:00:00",
+                                    "2024-05-31T00:00:00",
+                                    "2024-06-07T00:00:00",
+                                    "2024-06-14T00:00:00",
+                                    "2024-06-21T00:00:00",
+                                    "2024-06-28T00:00:00",
+                                    "2024-07-05T00:00:00",
+                                    "2024-07-12T00:00:00",
+                                    "2024-07-19T00:00:00",
+                                    "2024-07-26T00:00:00",
+                                    "2024-08-02T00:00:00",
+                                    "2024-08-09T00:00:00"
+                                ],
+                                "y": [
+                                    0.0,
+                                    0.0,
+                                    3.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "type": "scatter"
+                            },
+                            {
+                                "line": {
+                                    "color": "#ff7f0e",
+                                    "width": 3
+                                },
+                                "marker": {
+                                    "color": "#ff7f0e",
+                                    "line": {
+                                        "color": "black",
+                                        "width": 1
+                                    },
+                                    "size": 7,
+                                    "symbol": "circle"
+                                },
+                                "mode": "lines+markers",
+                                "name": "Ada Biosimilar",
+                                "x": [
+                                    "2024-05-17T00:00:00",
+                                    "2024-05-24T00:00:00",
+                                    "2024-05-31T00:00:00",
+                                    "2024-06-07T00:00:00",
+                                    "2024-06-14T00:00:00",
+                                    "2024-06-21T00:00:00",
+                                    "2024-06-28T00:00:00",
+                                    "2024-07-05T00:00:00",
+                                    "2024-07-12T00:00:00",
+                                    "2024-07-19T00:00:00",
+                                    "2024-07-26T00:00:00",
+                                    "2024-08-02T00:00:00",
+                                    "2024-08-09T00:00:00"
+                                ],
+                                "y": [
+                                    0.0,
+                                    1.0,
+                                    1.0,
+                                    2.0,
+                                    0.0,
+                                    1.0,
+                                    2.0,
+                                    1.0,
+                                    0.0,
+                                    1.0,
+                                    2.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "type": "scatter"
+                            },
+                            {
+                                "line": {
+                                    "color": "#2ca02c",
+                                    "width": 3
+                                },
+                                "marker": {
+                                    "color": "#2ca02c",
+                                    "line": {
+                                        "color": "black",
+                                        "width": 1
+                                    },
+                                    "size": 7,
+                                    "symbol": "circle"
+                                },
+                                "mode": "lines+markers",
+                                "name": "Stelara SI",
+                                "x": [
+                                    "2024-05-17T00:00:00",
+                                    "2024-05-24T00:00:00",
+                                    "2024-05-31T00:00:00",
+                                    "2024-06-07T00:00:00",
+                                    "2024-06-14T00:00:00",
+                                    "2024-06-21T00:00:00",
+                                    "2024-06-28T00:00:00",
+                                    "2024-07-05T00:00:00",
+                                    "2024-07-12T00:00:00",
+                                    "2024-07-19T00:00:00",
+                                    "2024-07-26T00:00:00",
+                                    "2024-08-02T00:00:00",
+                                    "2024-08-09T00:00:00"
+                                ],
+                                "y": [
+                                    13.0,
+                                    11.0,
+                                    2.0,
+                                    7.0,
+                                    9.0,
+                                    14.0,
+                                    9.0,
+                                    4.0,
+                                    7.0,
+                                    5.0,
+                                    13.0,
+                                    9.0,
+                                    7.0
+                                ],
+                                "type": "scatter"
+                            },
+                            {
+                                "line": {
+                                    "color": "#d62728",
+                                    "width": 3
+                                },
+                                "marker": {
+                                    "color": "#d62728",
+                                    "line": {
+                                        "color": "black",
+                                        "width": 1
+                                    },
+                                    "size": 7,
+                                    "symbol": "circle"
+                                },
+                                "mode": "lines+markers",
+                                "name": "Simponi",
+                                "x": [
+                                    "2024-05-17T00:00:00",
+                                    "2024-05-24T00:00:00",
+                                    "2024-05-31T00:00:00",
+                                    "2024-06-07T00:00:00",
+                                    "2024-06-14T00:00:00",
+                                    "2024-06-21T00:00:00",
+                                    "2024-06-28T00:00:00",
+                                    "2024-07-05T00:00:00",
+                                    "2024-07-12T00:00:00",
+                                    "2024-07-19T00:00:00",
+                                    "2024-07-26T00:00:00",
+                                    "2024-08-02T00:00:00",
+                                    "2024-08-09T00:00:00"
+                                ],
+                                "y": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "type": "scatter"
+                            },
+                            {
+                                "line": {
+                                    "color": "#9467bd",
+                                    "width": 3
+                                },
+                                "marker": {
+                                    "color": "#9467bd",
+                                    "line": {
+                                        "color": "black",
+                                        "width": 1
+                                    },
+                                    "size": 7,
+                                    "symbol": "circle"
+                                },
+                                "mode": "lines+markers",
+                                "name": "Zeposia",
+                                "x": [
+                                    "2024-05-17T00:00:00",
+                                    "2024-05-24T00:00:00",
+                                    "2024-05-31T00:00:00",
+                                    "2024-06-07T00:00:00",
+                                    "2024-06-14T00:00:00",
+                                    "2024-06-21T00:00:00",
+                                    "2024-06-28T00:00:00",
+                                    "2024-07-05T00:00:00",
+                                    "2024-07-12T00:00:00",
+                                    "2024-07-19T00:00:00",
+                                    "2024-07-26T00:00:00",
+                                    "2024-08-02T00:00:00",
+                                    "2024-08-09T00:00:00"
+                                ],
+                                "y": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "type": "scatter"
+                            }
+                        ],
+                        "layout": {
+                            "template": {
+                                "data": {
+                                    "barpolar": [
+                                        {
+                                            "marker": {
+                                                "line": {
+                                                    "color": "white",
+                                                    "width": 0.5
+                                                },
+                                                "pattern": {
+                                                    "fillmode": "overlay",
+                                                    "size": 10,
+                                                    "solidity": 0.2
+                                                }
+                                            },
+                                            "type": "barpolar"
+                                        }
+                                    ],
+                                    "bar": [
+                                        {
+                                            "error_x": {
+                                                "color": "rgb(36,36,36)"
+                                            },
+                                            "error_y": {
+                                                "color": "rgb(36,36,36)"
+                                            },
+                                            "marker": {
+                                                "line": {
+                                                    "color": "white",
+                                                    "width": 0.5
+                                                },
+                                                "pattern": {
+                                                    "fillmode": "overlay",
+                                                    "size": 10,
+                                                    "solidity": 0.2
+                                                }
+                                            },
+                                            "type": "bar"
+                                        }
+                                    ],
+                                    "carpet": [
+                                        {
+                                            "aaxis": {
+                                                "endlinecolor": "rgb(36,36,36)",
+                                                "gridcolor": "white",
+                                                "linecolor": "white",
+                                                "minorgridcolor": "white",
+                                                "startlinecolor": "rgb(36,36,36)"
+                                            },
+                                            "baxis": {
+                                                "endlinecolor": "rgb(36,36,36)",
+                                                "gridcolor": "white",
+                                                "linecolor": "white",
+                                                "minorgridcolor": "white",
+                                                "startlinecolor": "rgb(36,36,36)"
+                                            },
+                                            "type": "carpet"
+                                        }
+                                    ],
+                                    "choropleth": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "type": "choropleth"
+                                        }
+                                    ],
+                                    "contourcarpet": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "type": "contourcarpet"
+                                        }
+                                    ],
+                                    "contour": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0.0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1.0,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "contour"
+                                        }
+                                    ],
+                                    "heatmapgl": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0.0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1.0,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "heatmapgl"
+                                        }
+                                    ],
+                                    "heatmap": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0.0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1.0,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "heatmap"
+                                        }
+                                    ],
+                                    "histogram2dcontour": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0.0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1.0,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "histogram2dcontour"
+                                        }
+                                    ],
+                                    "histogram2d": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0.0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1.0,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "histogram2d"
+                                        }
+                                    ],
+                                    "histogram": [
+                                        {
+                                            "marker": {
+                                                "line": {
+                                                    "color": "white",
+                                                    "width": 0.6
+                                                }
+                                            },
+                                            "type": "histogram"
+                                        }
+                                    ],
+                                    "mesh3d": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "type": "mesh3d"
+                                        }
+                                    ],
+                                    "parcoords": [
+                                        {
+                                            "line": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "parcoords"
+                                        }
+                                    ],
+                                    "pie": [
+                                        {
+                                            "automargin": true,
+                                            "type": "pie"
+                                        }
+                                    ],
+                                    "scatter3d": [
+                                        {
+                                            "line": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatter3d"
+                                        }
+                                    ],
+                                    "scattercarpet": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattercarpet"
+                                        }
+                                    ],
+                                    "scattergeo": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattergeo"
+                                        }
+                                    ],
+                                    "scattergl": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattergl"
+                                        }
+                                    ],
+                                    "scattermapbox": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattermapbox"
+                                        }
+                                    ],
+                                    "scatterpolargl": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatterpolargl"
+                                        }
+                                    ],
+                                    "scatterpolar": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatterpolar"
+                                        }
+                                    ],
+                                    "scatter": [
+                                        {
+                                            "fillpattern": {
+                                                "fillmode": "overlay",
+                                                "size": 10,
+                                                "solidity": 0.2
+                                            },
+                                            "type": "scatter"
+                                        }
+                                    ],
+                                    "scatterternary": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatterternary"
+                                        }
+                                    ],
+                                    "surface": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0.0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1.0,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "surface"
+                                        }
+                                    ],
+                                    "table": [
+                                        {
+                                            "cells": {
+                                                "fill": {
+                                                    "color": "rgb(237,237,237)"
+                                                },
+                                                "line": {
+                                                    "color": "white"
+                                                }
+                                            },
+                                            "header": {
+                                                "fill": {
+                                                    "color": "rgb(217,217,217)"
+                                                },
+                                                "line": {
+                                                    "color": "white"
+                                                }
+                                            },
+                                            "type": "table"
+                                        }
+                                    ]
+                                },
+                                "layout": {
+                                    "annotationdefaults": {
+                                        "arrowhead": 0,
+                                        "arrowwidth": 1
+                                    },
+                                    "autotypenumbers": "strict",
+                                    "coloraxis": {
+                                        "colorbar": {
+                                            "outlinewidth": 1,
+                                            "tickcolor": "rgb(36,36,36)",
+                                            "ticks": "outside"
+                                        }
+                                    },
+                                    "colorscale": {
+                                        "diverging": [
+                                            [
+                                                0.0,
+                                                "rgb(103,0,31)"
+                                            ],
+                                            [
+                                                0.1,
+                                                "rgb(178,24,43)"
+                                            ],
+                                            [
+                                                0.2,
+                                                "rgb(214,96,77)"
+                                            ],
+                                            [
+                                                0.3,
+                                                "rgb(244,165,130)"
+                                            ],
+                                            [
+                                                0.4,
+                                                "rgb(253,219,199)"
+                                            ],
+                                            [
+                                                0.5,
+                                                "rgb(247,247,247)"
+                                            ],
+                                            [
+                                                0.6,
+                                                "rgb(209,229,240)"
+                                            ],
+                                            [
+                                                0.7,
+                                                "rgb(146,197,222)"
+                                            ],
+                                            [
+                                                0.8,
+                                                "rgb(67,147,195)"
+                                            ],
+                                            [
+                                                0.9,
+                                                "rgb(33,102,172)"
+                                            ],
+                                            [
+                                                1.0,
+                                                "rgb(5,48,97)"
+                                            ]
+                                        ],
+                                        "sequential": [
+                                            [
+                                                0.0,
+                                                "#440154"
+                                            ],
+                                            [
+                                                0.1111111111111111,
+                                                "#482878"
+                                            ],
+                                            [
+                                                0.2222222222222222,
+                                                "#3e4989"
+                                            ],
+                                            [
+                                                0.3333333333333333,
+                                                "#31688e"
+                                            ],
+                                            [
+                                                0.4444444444444444,
+                                                "#26828e"
+                                            ],
+                                            [
+                                                0.5555555555555556,
+                                                "#1f9e89"
+                                            ],
+                                            [
+                                                0.6666666666666666,
+                                                "#35b779"
+                                            ],
+                                            [
+                                                0.7777777777777778,
+                                                "#6ece58"
+                                            ],
+                                            [
+                                                0.8888888888888888,
+                                                "#b5de2b"
+                                            ],
+                                            [
+                                                1.0,
+                                                "#fde725"
+                                            ]
+                                        ],
+                                        "sequentialminus": [
+                                            [
+                                                0.0,
+                                                "#440154"
+                                            ],
+                                            [
+                                                0.1111111111111111,
+                                                "#482878"
+                                            ],
+                                            [
+                                                0.2222222222222222,
+                                                "#3e4989"
+                                            ],
+                                            [
+                                                0.3333333333333333,
+                                                "#31688e"
+                                            ],
+                                            [
+                                                0.4444444444444444,
+                                                "#26828e"
+                                            ],
+                                            [
+                                                0.5555555555555556,
+                                                "#1f9e89"
+                                            ],
+                                            [
+                                                0.6666666666666666,
+                                                "#35b779"
+                                            ],
+                                            [
+                                                0.7777777777777778,
+                                                "#6ece58"
+                                            ],
+                                            [
+                                                0.8888888888888888,
+                                                "#b5de2b"
+                                            ],
+                                            [
+                                                1.0,
+                                                "#fde725"
+                                            ]
+                                        ]
+                                    },
+                                    "colorway": [
+                                        "#1F77B4",
+                                        "#FF7F0E",
+                                        "#2CA02C",
+                                        "#D62728",
+                                        "#9467BD",
+                                        "#8C564B",
+                                        "#E377C2",
+                                        "#7F7F7F",
+                                        "#BCBD22",
+                                        "#17BECF"
+                                    ],
+                                    "font": {
+                                        "color": "rgb(36,36,36)"
+                                    },
+                                    "geo": {
+                                        "bgcolor": "white",
+                                        "lakecolor": "white",
+                                        "landcolor": "white",
+                                        "showlakes": true,
+                                        "showland": true,
+                                        "subunitcolor": "white"
+                                    },
+                                    "hoverlabel": {
+                                        "align": "left"
+                                    },
+                                    "hovermode": "closest",
+                                    "mapbox": {
+                                        "style": "light"
+                                    },
+                                    "paper_bgcolor": "white",
+                                    "plot_bgcolor": "white",
+                                    "polar": {
+                                        "angularaxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        },
+                                        "bgcolor": "white",
+                                        "radialaxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        }
+                                    },
+                                    "scene": {
+                                        "xaxis": {
+                                            "backgroundcolor": "white",
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "gridwidth": 2,
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showbackground": true,
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside",
+                                            "zeroline": false,
+                                            "zerolinecolor": "rgb(36,36,36)"
+                                        },
+                                        "yaxis": {
+                                            "backgroundcolor": "white",
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "gridwidth": 2,
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showbackground": true,
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside",
+                                            "zeroline": false,
+                                            "zerolinecolor": "rgb(36,36,36)"
+                                        },
+                                        "zaxis": {
+                                            "backgroundcolor": "white",
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "gridwidth": 2,
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showbackground": true,
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside",
+                                            "zeroline": false,
+                                            "zerolinecolor": "rgb(36,36,36)"
+                                        }
+                                    },
+                                    "shapedefaults": {
+                                        "fillcolor": "black",
+                                        "line": {
+                                            "width": 0
+                                        },
+                                        "opacity": 0.3
+                                    },
+                                    "ternary": {
+                                        "aaxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        },
+                                        "baxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        },
+                                        "bgcolor": "white",
+                                        "caxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        }
+                                    },
+                                    "title": {
+                                        "x": 0.05
+                                    },
+                                    "xaxis": {
+                                        "automargin": true,
+                                        "gridcolor": "rgb(232,232,232)",
+                                        "linecolor": "rgb(36,36,36)",
+                                        "showgrid": false,
+                                        "showline": true,
+                                        "ticks": "outside",
+                                        "title": {
+                                            "standoff": 15
+                                        },
+                                        "zeroline": false,
+                                        "zerolinecolor": "rgb(36,36,36)"
+                                    },
+                                    "yaxis": {
+                                        "automargin": true,
+                                        "gridcolor": "rgb(232,232,232)",
+                                        "linecolor": "rgb(36,36,36)",
+                                        "showgrid": false,
+                                        "showline": true,
+                                        "ticks": "outside",
+                                        "title": {
+                                            "standoff": 15
+                                        },
+                                        "zeroline": false,
+                                        "zerolinecolor": "rgb(36,36,36)"
+                                    }
+                                }
+                            },
+                            "title": {
+                                "text": "TRx Volume Trends for Competitor Products",
+                                "font": {
+                                    "size": 22,
+                                    "color": "black",
+                                    "family": "Arial, sans-serif"
+                                }
+                            },
+                            "xaxis": {
+                                "title": {
+                                    "text": "Time Period",
+                                    "font": {
+                                        "size": 14,
+                                        "color": "black"
+                                    }
+                                },
+                                "tickangle": -45,
+                                "showgrid": true,
+                                "gridcolor": "lightgrey"
+                            },
+                            "yaxis": {
+                                "title": {
+                                    "text": "TRx Volume",
+                                    "font": {
+                                        "size": 14,
+                                        "color": "black"
+                                    }
+                                },
+                                "showgrid": true,
+                                "gridcolor": "lightgrey",
+                                "zeroline": true,
+                                "zerolinecolor": "grey",
+                                "zerolinewidth": 1.5
+                            },
+                            "legend": {
+                                "title": {
+                                    "text": "Product",
+                                    "font": {
+                                        "size": 14,
+                                        "color": "black"
+                                    }
+                                },
+                                "x": 0.5,
+                                "y": -0.3,
+                                "xanchor": "center",
+                                "yanchor": "top",
+                                "bgcolor": "rgba(240, 240, 240, 1)",
+                                "bordercolor": "lightgrey",
+                                "borderwidth": 1,
+                                "orientation": "h"
+                            },
+                            "margin": {
+                                "l": 60,
+                                "r": 60,
+                                "b": 60,
+                                "t": 60
+                            },
+                            "hovermode": "x unified",
+                            "plot_bgcolor": "rgba(240, 240, 240, 1)",
+                            "paper_bgcolor": "rgba(240, 240, 240, 1)"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "graphs",
+            "data": [
+                {
+                    "graph_type": "multiline",
+                    "graph_obj": {
+                        "data": [
+                            {
+                                "line": {
+                                    "color": "#1f77b4",
+                                    "width": 3
+                                },
+                                "marker": {
+                                    "color": "#1f77b4",
+                                    "line": {
+                                        "color": "black",
+                                        "width": 1
+                                    },
+                                    "size": 7,
+                                    "symbol": "circle"
+                                },
+                                "mode": "lines+markers",
+                                "name": "Xeljanz",
+                                "x": [
+                                    "2024-05-17T00:00:00",
+                                    "2024-05-24T00:00:00",
+                                    "2024-05-31T00:00:00",
+                                    "2024-06-07T00:00:00",
+                                    "2024-06-14T00:00:00",
+                                    "2024-06-21T00:00:00",
+                                    "2024-06-28T00:00:00",
+                                    "2024-07-05T00:00:00",
+                                    "2024-07-12T00:00:00",
+                                    "2024-07-19T00:00:00",
+                                    "2024-07-26T00:00:00",
+                                    "2024-08-02T00:00:00",
+                                    "2024-08-09T00:00:00"
+                                ],
+                                "y": [
+                                    0.0,
+                                    0.0,
+                                    3.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "type": "scatter"
+                            },
+                            {
+                                "line": {
+                                    "color": "#ff7f0e",
+                                    "width": 3
+                                },
+                                "marker": {
+                                    "color": "#ff7f0e",
+                                    "line": {
+                                        "color": "black",
+                                        "width": 1
+                                    },
+                                    "size": 7,
+                                    "symbol": "circle"
+                                },
+                                "mode": "lines+markers",
+                                "name": "Ada Biosimilar",
+                                "x": [
+                                    "2024-05-17T00:00:00",
+                                    "2024-05-24T00:00:00",
+                                    "2024-05-31T00:00:00",
+                                    "2024-06-07T00:00:00",
+                                    "2024-06-14T00:00:00",
+                                    "2024-06-21T00:00:00",
+                                    "2024-06-28T00:00:00",
+                                    "2024-07-05T00:00:00",
+                                    "2024-07-12T00:00:00",
+                                    "2024-07-19T00:00:00",
+                                    "2024-07-26T00:00:00",
+                                    "2024-08-02T00:00:00",
+                                    "2024-08-09T00:00:00"
+                                ],
+                                "y": [
+                                    0.0,
+                                    1.0,
+                                    1.0,
+                                    2.0,
+                                    0.0,
+                                    1.0,
+                                    2.0,
+                                    1.0,
+                                    0.0,
+                                    1.0,
+                                    2.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "type": "scatter"
+                            },
+                            {
+                                "line": {
+                                    "color": "#2ca02c",
+                                    "width": 3
+                                },
+                                "marker": {
+                                    "color": "#2ca02c",
+                                    "line": {
+                                        "color": "black",
+                                        "width": 1
+                                    },
+                                    "size": 7,
+                                    "symbol": "circle"
+                                },
+                                "mode": "lines+markers",
+                                "name": "Stelara SI",
+                                "x": [
+                                    "2024-05-17T00:00:00",
+                                    "2024-05-24T00:00:00",
+                                    "2024-05-31T00:00:00",
+                                    "2024-06-07T00:00:00",
+                                    "2024-06-14T00:00:00",
+                                    "2024-06-21T00:00:00",
+                                    "2024-06-28T00:00:00",
+                                    "2024-07-05T00:00:00",
+                                    "2024-07-12T00:00:00",
+                                    "2024-07-19T00:00:00",
+                                    "2024-07-26T00:00:00",
+                                    "2024-08-02T00:00:00",
+                                    "2024-08-09T00:00:00"
+                                ],
+                                "y": [
+                                    13.0,
+                                    11.0,
+                                    2.0,
+                                    7.0,
+                                    9.0,
+                                    14.0,
+                                    9.0,
+                                    4.0,
+                                    7.0,
+                                    5.0,
+                                    13.0,
+                                    9.0,
+                                    7.0
+                                ],
+                                "type": "scatter"
+                            },
+                            {
+                                "line": {
+                                    "color": "#d62728",
+                                    "width": 3
+                                },
+                                "marker": {
+                                    "color": "#d62728",
+                                    "line": {
+                                        "color": "black",
+                                        "width": 1
+                                    },
+                                    "size": 7,
+                                    "symbol": "circle"
+                                },
+                                "mode": "lines+markers",
+                                "name": "Simponi",
+                                "x": [
+                                    "2024-05-17T00:00:00",
+                                    "2024-05-24T00:00:00",
+                                    "2024-05-31T00:00:00",
+                                    "2024-06-07T00:00:00",
+                                    "2024-06-14T00:00:00",
+                                    "2024-06-21T00:00:00",
+                                    "2024-06-28T00:00:00",
+                                    "2024-07-05T00:00:00",
+                                    "2024-07-12T00:00:00",
+                                    "2024-07-19T00:00:00",
+                                    "2024-07-26T00:00:00",
+                                    "2024-08-02T00:00:00",
+                                    "2024-08-09T00:00:00"
+                                ],
+                                "y": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "type": "scatter"
+                            },
+                            {
+                                "line": {
+                                    "color": "#9467bd",
+                                    "width": 3
+                                },
+                                "marker": {
+                                    "color": "#9467bd",
+                                    "line": {
+                                        "color": "black",
+                                        "width": 1
+                                    },
+                                    "size": 7,
+                                    "symbol": "circle"
+                                },
+                                "mode": "lines+markers",
+                                "name": "Zeposia",
+                                "x": [
+                                    "2024-05-17T00:00:00",
+                                    "2024-05-24T00:00:00",
+                                    "2024-05-31T00:00:00",
+                                    "2024-06-07T00:00:00",
+                                    "2024-06-14T00:00:00",
+                                    "2024-06-21T00:00:00",
+                                    "2024-06-28T00:00:00",
+                                    "2024-07-05T00:00:00",
+                                    "2024-07-12T00:00:00",
+                                    "2024-07-19T00:00:00",
+                                    "2024-07-26T00:00:00",
+                                    "2024-08-02T00:00:00",
+                                    "2024-08-09T00:00:00"
+                                ],
+                                "y": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "type": "scatter"
+                            }
+                        ],
+                        "layout": {
+                            "template": {
+                                "data": {
+                                    "barpolar": [
+                                        {
+                                            "marker": {
+                                                "line": {
+                                                    "color": "white",
+                                                    "width": 0.5
+                                                },
+                                                "pattern": {
+                                                    "fillmode": "overlay",
+                                                    "size": 10,
+                                                    "solidity": 0.2
+                                                }
+                                            },
+                                            "type": "barpolar"
+                                        }
+                                    ],
+                                    "bar": [
+                                        {
+                                            "error_x": {
+                                                "color": "rgb(36,36,36)"
+                                            },
+                                            "error_y": {
+                                                "color": "rgb(36,36,36)"
+                                            },
+                                            "marker": {
+                                                "line": {
+                                                    "color": "white",
+                                                    "width": 0.5
+                                                },
+                                                "pattern": {
+                                                    "fillmode": "overlay",
+                                                    "size": 10,
+                                                    "solidity": 0.2
+                                                }
+                                            },
+                                            "type": "bar"
+                                        }
+                                    ],
+                                    "carpet": [
+                                        {
+                                            "aaxis": {
+                                                "endlinecolor": "rgb(36,36,36)",
+                                                "gridcolor": "white",
+                                                "linecolor": "white",
+                                                "minorgridcolor": "white",
+                                                "startlinecolor": "rgb(36,36,36)"
+                                            },
+                                            "baxis": {
+                                                "endlinecolor": "rgb(36,36,36)",
+                                                "gridcolor": "white",
+                                                "linecolor": "white",
+                                                "minorgridcolor": "white",
+                                                "startlinecolor": "rgb(36,36,36)"
+                                            },
+                                            "type": "carpet"
+                                        }
+                                    ],
+                                    "choropleth": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "type": "choropleth"
+                                        }
+                                    ],
+                                    "contourcarpet": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "type": "contourcarpet"
+                                        }
+                                    ],
+                                    "contour": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0.0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1.0,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "contour"
+                                        }
+                                    ],
+                                    "heatmapgl": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0.0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1.0,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "heatmapgl"
+                                        }
+                                    ],
+                                    "heatmap": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0.0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1.0,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "heatmap"
+                                        }
+                                    ],
+                                    "histogram2dcontour": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0.0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1.0,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "histogram2dcontour"
+                                        }
+                                    ],
+                                    "histogram2d": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0.0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1.0,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "histogram2d"
+                                        }
+                                    ],
+                                    "histogram": [
+                                        {
+                                            "marker": {
+                                                "line": {
+                                                    "color": "white",
+                                                    "width": 0.6
+                                                }
+                                            },
+                                            "type": "histogram"
+                                        }
+                                    ],
+                                    "mesh3d": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "type": "mesh3d"
+                                        }
+                                    ],
+                                    "parcoords": [
+                                        {
+                                            "line": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "parcoords"
+                                        }
+                                    ],
+                                    "pie": [
+                                        {
+                                            "automargin": true,
+                                            "type": "pie"
+                                        }
+                                    ],
+                                    "scatter3d": [
+                                        {
+                                            "line": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatter3d"
+                                        }
+                                    ],
+                                    "scattercarpet": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattercarpet"
+                                        }
+                                    ],
+                                    "scattergeo": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattergeo"
+                                        }
+                                    ],
+                                    "scattergl": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattergl"
+                                        }
+                                    ],
+                                    "scattermapbox": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scattermapbox"
+                                        }
+                                    ],
+                                    "scatterpolargl": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatterpolargl"
+                                        }
+                                    ],
+                                    "scatterpolar": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatterpolar"
+                                        }
+                                    ],
+                                    "scatter": [
+                                        {
+                                            "fillpattern": {
+                                                "fillmode": "overlay",
+                                                "size": 10,
+                                                "solidity": 0.2
+                                            },
+                                            "type": "scatter"
+                                        }
+                                    ],
+                                    "scatterternary": [
+                                        {
+                                            "marker": {
+                                                "colorbar": {
+                                                    "outlinewidth": 1,
+                                                    "tickcolor": "rgb(36,36,36)",
+                                                    "ticks": "outside"
+                                                }
+                                            },
+                                            "type": "scatterternary"
+                                        }
+                                    ],
+                                    "surface": [
+                                        {
+                                            "colorbar": {
+                                                "outlinewidth": 1,
+                                                "tickcolor": "rgb(36,36,36)",
+                                                "ticks": "outside"
+                                            },
+                                            "colorscale": [
+                                                [
+                                                    0.0,
+                                                    "#440154"
+                                                ],
+                                                [
+                                                    0.1111111111111111,
+                                                    "#482878"
+                                                ],
+                                                [
+                                                    0.2222222222222222,
+                                                    "#3e4989"
+                                                ],
+                                                [
+                                                    0.3333333333333333,
+                                                    "#31688e"
+                                                ],
+                                                [
+                                                    0.4444444444444444,
+                                                    "#26828e"
+                                                ],
+                                                [
+                                                    0.5555555555555556,
+                                                    "#1f9e89"
+                                                ],
+                                                [
+                                                    0.6666666666666666,
+                                                    "#35b779"
+                                                ],
+                                                [
+                                                    0.7777777777777778,
+                                                    "#6ece58"
+                                                ],
+                                                [
+                                                    0.8888888888888888,
+                                                    "#b5de2b"
+                                                ],
+                                                [
+                                                    1.0,
+                                                    "#fde725"
+                                                ]
+                                            ],
+                                            "type": "surface"
+                                        }
+                                    ],
+                                    "table": [
+                                        {
+                                            "cells": {
+                                                "fill": {
+                                                    "color": "rgb(237,237,237)"
+                                                },
+                                                "line": {
+                                                    "color": "white"
+                                                }
+                                            },
+                                            "header": {
+                                                "fill": {
+                                                    "color": "rgb(217,217,217)"
+                                                },
+                                                "line": {
+                                                    "color": "white"
+                                                }
+                                            },
+                                            "type": "table"
+                                        }
+                                    ]
+                                },
+                                "layout": {
+                                    "annotationdefaults": {
+                                        "arrowhead": 0,
+                                        "arrowwidth": 1
+                                    },
+                                    "autotypenumbers": "strict",
+                                    "coloraxis": {
+                                        "colorbar": {
+                                            "outlinewidth": 1,
+                                            "tickcolor": "rgb(36,36,36)",
+                                            "ticks": "outside"
+                                        }
+                                    },
+                                    "colorscale": {
+                                        "diverging": [
+                                            [
+                                                0.0,
+                                                "rgb(103,0,31)"
+                                            ],
+                                            [
+                                                0.1,
+                                                "rgb(178,24,43)"
+                                            ],
+                                            [
+                                                0.2,
+                                                "rgb(214,96,77)"
+                                            ],
+                                            [
+                                                0.3,
+                                                "rgb(244,165,130)"
+                                            ],
+                                            [
+                                                0.4,
+                                                "rgb(253,219,199)"
+                                            ],
+                                            [
+                                                0.5,
+                                                "rgb(247,247,247)"
+                                            ],
+                                            [
+                                                0.6,
+                                                "rgb(209,229,240)"
+                                            ],
+                                            [
+                                                0.7,
+                                                "rgb(146,197,222)"
+                                            ],
+                                            [
+                                                0.8,
+                                                "rgb(67,147,195)"
+                                            ],
+                                            [
+                                                0.9,
+                                                "rgb(33,102,172)"
+                                            ],
+                                            [
+                                                1.0,
+                                                "rgb(5,48,97)"
+                                            ]
+                                        ],
+                                        "sequential": [
+                                            [
+                                                0.0,
+                                                "#440154"
+                                            ],
+                                            [
+                                                0.1111111111111111,
+                                                "#482878"
+                                            ],
+                                            [
+                                                0.2222222222222222,
+                                                "#3e4989"
+                                            ],
+                                            [
+                                                0.3333333333333333,
+                                                "#31688e"
+                                            ],
+                                            [
+                                                0.4444444444444444,
+                                                "#26828e"
+                                            ],
+                                            [
+                                                0.5555555555555556,
+                                                "#1f9e89"
+                                            ],
+                                            [
+                                                0.6666666666666666,
+                                                "#35b779"
+                                            ],
+                                            [
+                                                0.7777777777777778,
+                                                "#6ece58"
+                                            ],
+                                            [
+                                                0.8888888888888888,
+                                                "#b5de2b"
+                                            ],
+                                            [
+                                                1.0,
+                                                "#fde725"
+                                            ]
+                                        ],
+                                        "sequentialminus": [
+                                            [
+                                                0.0,
+                                                "#440154"
+                                            ],
+                                            [
+                                                0.1111111111111111,
+                                                "#482878"
+                                            ],
+                                            [
+                                                0.2222222222222222,
+                                                "#3e4989"
+                                            ],
+                                            [
+                                                0.3333333333333333,
+                                                "#31688e"
+                                            ],
+                                            [
+                                                0.4444444444444444,
+                                                "#26828e"
+                                            ],
+                                            [
+                                                0.5555555555555556,
+                                                "#1f9e89"
+                                            ],
+                                            [
+                                                0.6666666666666666,
+                                                "#35b779"
+                                            ],
+                                            [
+                                                0.7777777777777778,
+                                                "#6ece58"
+                                            ],
+                                            [
+                                                0.8888888888888888,
+                                                "#b5de2b"
+                                            ],
+                                            [
+                                                1.0,
+                                                "#fde725"
+                                            ]
+                                        ]
+                                    },
+                                    "colorway": [
+                                        "#1F77B4",
+                                        "#FF7F0E",
+                                        "#2CA02C",
+                                        "#D62728",
+                                        "#9467BD",
+                                        "#8C564B",
+                                        "#E377C2",
+                                        "#7F7F7F",
+                                        "#BCBD22",
+                                        "#17BECF"
+                                    ],
+                                    "font": {
+                                        "color": "rgb(36,36,36)"
+                                    },
+                                    "geo": {
+                                        "bgcolor": "white",
+                                        "lakecolor": "white",
+                                        "landcolor": "white",
+                                        "showlakes": true,
+                                        "showland": true,
+                                        "subunitcolor": "white"
+                                    },
+                                    "hoverlabel": {
+                                        "align": "left"
+                                    },
+                                    "hovermode": "closest",
+                                    "mapbox": {
+                                        "style": "light"
+                                    },
+                                    "paper_bgcolor": "white",
+                                    "plot_bgcolor": "white",
+                                    "polar": {
+                                        "angularaxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        },
+                                        "bgcolor": "white",
+                                        "radialaxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        }
+                                    },
+                                    "scene": {
+                                        "xaxis": {
+                                            "backgroundcolor": "white",
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "gridwidth": 2,
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showbackground": true,
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside",
+                                            "zeroline": false,
+                                            "zerolinecolor": "rgb(36,36,36)"
+                                        },
+                                        "yaxis": {
+                                            "backgroundcolor": "white",
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "gridwidth": 2,
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showbackground": true,
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside",
+                                            "zeroline": false,
+                                            "zerolinecolor": "rgb(36,36,36)"
+                                        },
+                                        "zaxis": {
+                                            "backgroundcolor": "white",
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "gridwidth": 2,
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showbackground": true,
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside",
+                                            "zeroline": false,
+                                            "zerolinecolor": "rgb(36,36,36)"
+                                        }
+                                    },
+                                    "shapedefaults": {
+                                        "fillcolor": "black",
+                                        "line": {
+                                            "width": 0
+                                        },
+                                        "opacity": 0.3
+                                    },
+                                    "ternary": {
+                                        "aaxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        },
+                                        "baxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        },
+                                        "bgcolor": "white",
+                                        "caxis": {
+                                            "gridcolor": "rgb(232,232,232)",
+                                            "linecolor": "rgb(36,36,36)",
+                                            "showgrid": false,
+                                            "showline": true,
+                                            "ticks": "outside"
+                                        }
+                                    },
+                                    "title": {
+                                        "x": 0.05
+                                    },
+                                    "xaxis": {
+                                        "automargin": true,
+                                        "gridcolor": "rgb(232,232,232)",
+                                        "linecolor": "rgb(36,36,36)",
+                                        "showgrid": false,
+                                        "showline": true,
+                                        "ticks": "outside",
+                                        "title": {
+                                            "standoff": 15
+                                        },
+                                        "zeroline": false,
+                                        "zerolinecolor": "rgb(36,36,36)"
+                                    },
+                                    "yaxis": {
+                                        "automargin": true,
+                                        "gridcolor": "rgb(232,232,232)",
+                                        "linecolor": "rgb(36,36,36)",
+                                        "showgrid": false,
+                                        "showline": true,
+                                        "ticks": "outside",
+                                        "title": {
+                                            "standoff": 15
+                                        },
+                                        "zeroline": false,
+                                        "zerolinecolor": "rgb(36,36,36)"
+                                    }
+                                }
+                            },
+                            "title": {
+                                "text": "TRx Volume Trends for Competitor Products",
+                                "font": {
+                                    "size": 22,
+                                    "color": "black",
+                                    "family": "Arial, sans-serif"
+                                }
+                            },
+                            "xaxis": {
+                                "title": {
+                                    "text": "Time Period",
+                                    "font": {
+                                        "size": 14,
+                                        "color": "black"
+                                    }
+                                },
+                                "tickangle": -45,
+                                "showgrid": true,
+                                "gridcolor": "lightgrey"
+                            },
+                            "yaxis": {
+                                "title": {
+                                    "text": "TRx Volume",
+                                    "font": {
+                                        "size": 14,
+                                        "color": "black"
+                                    }
+                                },
+                                "showgrid": true,
+                                "gridcolor": "lightgrey",
+                                "zeroline": true,
+                                "zerolinecolor": "grey",
+                                "zerolinewidth": 1.5
+                            },
+                            "legend": {
+                                "title": {
+                                    "text": "Product",
+                                    "font": {
+                                        "size": 14,
+                                        "color": "black"
+                                    }
+                                },
+                                "x": 0.5,
+                                "y": -0.3,
+                                "xanchor": "center",
+                                "yanchor": "top",
+                                "bgcolor": "rgba(240, 240, 240, 1)",
+                                "bordercolor": "lightgrey",
+                                "borderwidth": 1,
+                                "orientation": "h"
+                            },
+                            "margin": {
+                                "l": 60,
+                                "r": 60,
+                                "b": 60,
+                                "t": 60
+                            },
+                            "hovermode": "x unified",
+                            "plot_bgcolor": "rgba(240, 240, 240, 1)",
+                            "paper_bgcolor": "rgba(240, 240, 240, 1)"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "recommended_questions",
+            "header_text": "How about these time periods?",
+            "data": [
+                {
+                    "label": "For Last 4 weeks",
+                    "question": "what is the nbrx volume for Rinvoq for last 4weeks"
+                },
+                {
+                    "label": "For Last 13 weeks",
+                    "question": "what is the trx volume for Rinvoq for last 4weeks"
+                },
+                {
+                    "label": "For Last 13 weeks",
+                    "question": "rx volume for last 13 weeks for SKYRIZI OBI"
+                }
+            ]
+        },
+        {
+            "type": "recommended_questions",
+            "header_text": "How about these products?",
+            "data": [
+                {
+                    "label": "Rinvoq",
+                    "question": "what is the nbrx volume for Rinvoq for last 4weeks"
+                },
+                {
+                    "label": "Humira",
+                    "question": "what is the trx volume for Humira for last 4weeks"
+                }
+            ]
+        },
+        {
+            "type": "data",
+            "data": {},
+            "visualization": [
+                {
+                    "visualization_type": "table",
+                    "visualization_properties": {},
+                    "visualization_obj": {}
+                }
+            ]
+        }
+    ],
+    "session_history": {
+        "session_id": 2325,
+        "app_id": 9,
+        "session_history_id": 12755,
+        "session_history_uuid": "dec554e3-f20d-436e-af77-8323c6ff4efd"
+    },
+    "score_details": {
+        "score": "{}",
+        "average_score": 0
+    },
+    "hist_agnt_rsp_ids": [
+        8443
+    ],
+    "complete_latency_info_str": "\n\n -> Latency Information: \ncreate_session_history_genai: 61.09 ms, \n\nget_app_agents: 100.838 ms, \n\ngenerate_sub_systems_directly: 0.137 ms, \n\nget_session_history: 25.846 ms, \n\nget_session_history_for_genai: 26.063 ms, \n\nget_app_agents: 69.796 ms, \n\ngenerate_sub_systems_directly: 0.135 ms, \n\nbypass_classifier_embedding: 70.258 ms, \n\nasync_extract_physician_name: 1042.316 ms, \n\nquestion_sentiment_analyzer: 1180.184 ms, \n\nuser_based_question_validation: 1382.365 ms, \n\nasync_question_breakdown_and_reframing_module: 1852.176 ms, \n\nrag_based_planner: 694.646 ms, \n\nasync_final_llm_based_router: 725.93 ms, \n\nget_final_llm_based_router: 726.041 ms, \n\nplanner_agent_with_optimized_latency: 3272.936 ms, \n\nget_validations: 3288.567 ms, \n\ncontains_numeric_id: 0.007 ms, \n\nget_api_call: 39.369 ms, \n\ndynamic_entity_extraction: 960.301 ms, \n\ndynamic_entity_extraction: 1054.474 ms, \n\ndynamic_entity_extraction: 1171.018 ms, \n\nasync_nudging: 1171.09 ms, \n\nextract_dynamic_parameters: 1171.545 ms, \n\ndynamic_nudging_for_parameters_list: 1210.944 ms, \n\ncheck_word_match: 0.011 ms, \n\ncontains_numeric_id: 0.012 ms, \n\ncheck_word_match: 0.008 ms, \n\npost_api_call: 8819.782 ms, \n\ncreate_history_agent_responses: 95.315 ms, \n\nget_payload_response: 8915.537 ms, \n\ndynamic_text_to_agent: 10126.767 ms, \n\nasync_agent_execution: 10127.074 ms, \n\nexecute_agents: 10127.09 ms, \n\nasync_summarize_response: 9236.468 ms, \n\ninitiate_conversation: 22911.052 ms, \n\n"
+}

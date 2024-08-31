@@ -1,0 +1,260 @@
+{
+    "thought_process": "-> Plan : -> PAYLOAD GENERATED: -> AGENT'S RESPONSE:  -> PERFORMANCE DETAILS \n",
+    "summarized_response": [
+      {
+        "type": "markdown",
+        "data": "The NBRX percentage share trend for Skyrizi for the last 13 weeks is as follows:\n\n1. 5 July 2024 - 38.46%\n2. 28 June 2024 - 47.06%\n3. 21 June 2024 - 27.59%\n4. 14 June 2024 - 36.36%\n5. 7 June 2024 - 18.92%\n6. 31 May 2024 - 22.86%\n7. 24 May 2024 - 23.08%\n8. 17 May 2024 - 27.78%\n9. 10 May 2024 - 21.33%\n10. 3 May 2024 - 7.69%\n11. 26 April 2024 - 12.50%\n12. 19 April 2024 - 41.38%\n13. 12 April 2024 - 23.53%\n14. 5 April 2024 - 41.67%\n15. 29 March 2024 - 27.91%\n16. 22 March 2024 - 20.00%\n17. 15 March 2024 - 38.89%\n18. 8 March 2024 - 25.71%\n19. 1 March 2024 - 25.93%\n20. 23 February 2024 - 24.14%\n21. 16 February 2024 - 30.00%\n22. 9 February 2024 - 15.38%\n23. 2 February 2024 - 26.32%\n24. 26 January 2024 - 24.14%\n25. 19 January 2024 - 5.45%\n26. 12 January 2024 - 38.10%"
+      },
+      {
+        "type": "data",
+        "data": [
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "07/05/2024",
+            "metrics-NBRX_SHARE_PCT": "38.46"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "06/28/2024",
+            "metrics-NBRX_SHARE_PCT": "47.06"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "06/21/2024",
+            "metrics-NBRX_SHARE_PCT": "27.59"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "06/14/2024",
+            "metrics-NBRX_SHARE_PCT": "36.36"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "06/07/2024",
+            "metrics-NBRX_SHARE_PCT": "18.92"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "05/31/2024",
+            "metrics-NBRX_SHARE_PCT": "22.86"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "05/24/2024",
+            "metrics-NBRX_SHARE_PCT": "23.08"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "05/17/2024",
+            "metrics-NBRX_SHARE_PCT": "27.78"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "05/10/2024",
+            "metrics-NBRX_SHARE_PCT": "21.33"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "05/03/2024",
+            "metrics-NBRX_SHARE_PCT": "7.69"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "04/26/2024",
+            "metrics-NBRX_SHARE_PCT": "12.50"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "04/19/2024",
+            "metrics-NBRX_SHARE_PCT": "41.38"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "04/12/2024",
+            "metrics-NBRX_SHARE_PCT": "23.53"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "04/05/2024",
+            "metrics-NBRX_SHARE_PCT": "41.67"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "03/29/2024",
+            "metrics-NBRX_SHARE_PCT": "27.91"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "03/22/2024",
+            "metrics-NBRX_SHARE_PCT": "20.00"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "03/15/2024",
+            "metrics-NBRX_SHARE_PCT": "38.89"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "03/08/2024",
+            "metrics-NBRX_SHARE_PCT": "25.71"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "03/01/2024",
+            "metrics-NBRX_SHARE_PCT": "25.93"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "02/23/2024",
+            "metrics-NBRX_SHARE_PCT": "24.14"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "02/16/2024",
+            "metrics-NBRX_SHARE_PCT": "30.00"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "02/09/2024",
+            "metrics-NBRX_SHARE_PCT": "15.38"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "02/02/2024",
+            "metrics-NBRX_SHARE_PCT": "26.32"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "01/26/2024",
+            "metrics-NBRX_SHARE_PCT": "24.14"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "01/19/2024",
+            "metrics-NBRX_SHARE_PCT": "5.45"
+          },
+          {
+            "current-Period": "04/06/2024 - 07/05/2024",
+            "previous-Period": "01/06/2024 - 04/05/2024",
+            "name": "Houston S, TX",
+            "product": "SKYRIZI",
+            "time-period": "01/12/2024",
+            "metrics-NBRX_SHARE_PCT": "38.10"
+          }
+        ]
+      },
+      {
+        "type": "recommended_questions",
+        "header": "You can lookup the same info for the follwing time periods:",
+        "data": [
+          {
+            "label": "For Last 8 weeks",
+            "question": "Give me the NBRX percentage share trend for Skyrizi for 8x8 weeks"
+          },
+          {
+            "label": "For Last 13 weeks",
+            "question": "Give me the NBRX percentage share trend for Skyrizi for 13x13 weeks"
+          }
+        ]
+      },
+      {
+        "type": "recommended_questions",
+        "header": "You can alos ask for the following",
+        "data": [
+          {
+            "label": "Rx Volume",
+            "question": "Give me the RX Volume trend for Skyrizi for 13x13 weeks"
+          },
+          {
+            "label": "Trx Volume",
+            "question": "Give me the TRX Volume trend for Skyrizi for 13x13 weeks"
+          }
+        ]
+      }
+    ],
+    "session_history": {
+      "session_id": 1221,
+      "app_id": 1,
+      "session_history_id": 4885,
+      "session_history_uuid": "17555c36-00c6-4a6a-8e1d-8f206dbc025e"
+    },
+    "score_details": {
+      "score": "{}",
+      "average_score": 0
+    }
+  }
